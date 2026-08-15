@@ -1,0 +1,21 @@
+# Model weights (never redistribute per AF3/Boltz terms of use)
+*.bin
+*.bin.zst
+af3_extracted/
+.boltz/
+
+# Containers
+*.sif
+
+# Virtual environments
+.venv*/
+__pycache__/
+*.pyc
+
+# Heavy outputs (structures, not tracked — summarize in results/ instead)
+*.cif
+*_test_output/
+
+# Editor/system files
+.DS_Store
+*.swp
