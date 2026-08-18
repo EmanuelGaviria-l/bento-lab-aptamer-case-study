@@ -1,0 +1,21 @@
+Boltz-2 affinity prediction vs experimental Kd -- Spearman correlation
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Compared: affinity_pred_value (log10 IC50, uM; lower = tighter binding) vs kd_nm (lower = tighter binding).
+Interpretation: a POSITIVE correlation means the model's ranking of binding strength agrees with experiment (both lower together); a NEGATIVE correlation would mean the model's ranking is inverted relative to experiment.
+
+Overall (n=73, all 7 targets pooled):
+  Spearman rho = -0.1596
+  p-value      = 0.1774
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8    0.2857      0.4927
+Autonomously replicating sequence‐binding factor 1 (...   8    0.1667      0.6932
+Basic fibroblast growth factor (bFGF)                    10    0.2371      0.5096
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12       nan         nan
+Immunoglobulin E (IgE), Human                            13   -0.2452      0.4195
+Thrombin, Human                                          10    0.3465      0.3267
+Vascular Endothelial Growth Factor (VEGF)                12    0.2312      0.4697

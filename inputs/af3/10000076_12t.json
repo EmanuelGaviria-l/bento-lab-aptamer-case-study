@@ -1,0 +1,26 @@
+{
+  "name": "10000076_12t",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "AASRGQGPEPAPGGGVEGVGARGVALKLFVQLLGCSRFGGAVVRAGEAEPSGAARSASSGREEPQPEEGEEEEEKEEERGPQWRLGARKPGSWTGEAAVCADSAPAARAPQALARASGRGGRVARRGAEESGPPHSPSRRGSASRAGPGRASETMNFLLSWVHWS",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "rna": {
+        "id": "B",
+        "sequence": "GGAAGGGAACCUGCGUCUCGGCACCUUCG",
+        "unpairedMsa": ""
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}

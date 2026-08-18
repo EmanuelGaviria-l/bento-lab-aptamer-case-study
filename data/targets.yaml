@@ -1,0 +1,88 @@
+# Maps each Target name in aptamer_subset.csv to UniProt protein ID(s)
+# and the residue range(s) of the biologically relevant mature form.
+#
+# Correction pass: several UniProt entries are full precursors (signal
+# peptide + propeptide + mature chain(s)); using the full precursor as
+# the AF3/Boltz-2 target would model a form of the protein that does
+# not actually exist extracellularly / was not the form the aptamers
+# were selected against. Ranges below are the mature, processed form,
+# taken from each entry's UniProt feature table (Signal/Propeptide/
+# Chain/Peptide features).
+
+targets:
+  - name: "Thrombin, Human"
+    uniprot: P00734
+    chains:
+      - range: [315, 363]
+        label: "light chain"
+      - range: [364, 622]
+        label: "heavy chain"
+    note: >
+      Full precursor (622aa) is prothrombin: signal peptide (1-24),
+      propeptide (25-43), and activation fragments (44-327) are cleaved
+      away during activation and are not part of mature alpha-thrombin.
+      Modeled as two protein chains (disulfide-linked in vivo; AF3 does
+      not need an explicit disulfide constraint to fold each chain
+      correctly, but the complex is only physically meaningful as the
+      two-chain assembly).
+
+  - name: "Vascular Endothelial Growth Factor (VEGF)"
+    uniprot: P15692
+    chains:
+      - range: [27, 191]
+        label: "VEGF165 (mature, signal peptide removed)"
+    note: >
+      P15692 canonical sequence is the long-form precursor (395aa,
+      includes multiple exon/isoform regions). VEGF165 -- the
+      predominant, most-studied isoform in receptor-binding literature
+      -- corresponds to precursor residues 27-191 after signal peptide
+      (1-26) cleavage.
+
+  - name: "Basic fibroblast growth factor (bFGF)"
+    uniprot: P09038
+    chains:
+      - range: [143, 288]
+        label: "FGF2, mature secreted form"
+    note: >
+      Precursor has multiple alternative translation start sites
+      (giving 18-34 kDa isoforms); residues 143-288 correspond to the
+      commonly used 18 kDa secreted mature form referenced in most
+      aptamer/binding literature.
+
+  - name: "Human immunodeficiency virus type 1 Rev (HIV-1 Rev)"
+    uniprot: P04618
+    chains:
+      - range: [1, 116]
+        label: "Rev (full length, no processing)"
+
+  - name: "Immunoglobulin E (IgE), Human"
+    uniprot: P01877
+    chains:
+      - range: [1, 391]
+        label: "IgE heavy chain constant region"
+    note: >
+      Native IgE is a multi-chain immunoglobulin (2 heavy + 2 light
+      chains); only the constant heavy-chain region is available as a
+      single UniProt entry. Modeling this alone is a known
+      simplification -- documented as a limitation, not corrected
+      further given project scope/deadline.
+
+  - name: "Autonomously replicating sequence\u2010binding factor 1 (ABF1) protein"
+    uniprot: P39946
+    chains:
+      - range: [1, 494]
+        label: "ABF1 (full length, no signal/propeptide)"
+
+  - name: "Abrin toxin, Abrus precatorius (A.precatorius)"
+    uniprot: P11140
+    chains:
+      - range: [1, 251]
+        label: "A chain (catalytic)"
+      - range: [262, 528]
+        label: "B chain (lectin)"
+    note: >
+      Full precursor (528aa) is preproabrin; linker peptide (252-261)
+      connecting the two chains is cleaved away in the mature,
+      disulfide-linked A+B heterodimer, which is the biologically
+      active toxin form referenced in the source paper (aptamer-based
+      abrin detection).

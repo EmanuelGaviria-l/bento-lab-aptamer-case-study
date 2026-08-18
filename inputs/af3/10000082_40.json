@@ -1,0 +1,26 @@
+{
+  "name": "10000082_40",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "AASRGQGPEPAPGGGVEGVGARGVALKLFVQLLGCSRFGGAVVRAGEAEPSGAARSASSGREEPQPEEGEEEEEKEEERGPQWRLGARKPGSWTGEAAVCADSAPAARAPQALARASGRGGRVARRGAEESGPPHSPSRRGSASRAGPGRASETMNFLLSWVHWS",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "rna": {
+        "id": "B",
+        "sequence": "GGGAGCUCAGAAUAAACGCUCAAGCUUGAUGGGUGACACACGUCAUGCCGAGCUUCGACAUGAGGCCCGGAUCCGGC",
+        "unpairedMsa": ""
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}

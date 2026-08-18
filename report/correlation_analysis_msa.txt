@@ -1,0 +1,21 @@
+Boltz-2 (cached protein MSAs) — affinity prediction vs experimental Kd
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Compared: affinity_pred_value (log10 IC50, uM; lower = tighter binding) vs kd_nm (lower = tighter binding).
+Interpretation: a POSITIVE correlation means the model's ranking of binding strength agrees with experiment (both lower together); a NEGATIVE correlation would mean the model's ranking is inverted relative to experiment.
+
+Overall (n=73, all 7 targets pooled):
+  Spearman rho = -0.1776
+  p-value      = 0.1328
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8    0.3095      0.4556
+Autonomously replicating sequence‐binding factor 1 (...   8   -0.2857      0.4927
+Basic fibroblast growth factor (bFGF)                    10    0.1398      0.7001
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12    (Kd ties, skipped)
+Immunoglobulin E (IgE), Human                            13   -0.4986     0.08284
+Thrombin, Human                                          10   -0.2006      0.5784
+Vascular Endothelial Growth Factor (VEGF)                12    0.3643      0.2444

@@ -1,0 +1,26 @@
+{
+  "name": "10000118_C18",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAGRSGDSDEELIRTVRLIKLLYQSNPPPNPEGTRQARRNRRRRWRERQRQIHSISERILGTYLGRSAEPVPLQLPPLERLTLDCNEDCGTSGTQGVGSPQILVESPTVLESGTKE",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "rna": {
+        "id": "B",
+        "sequence": "GGGAGAUACCAGCUUAUUCAAUUGCUAGGCAAUGUUUCGGUUGGAGUAAUCCGGUGGCUUGCCAUGAUUUACGUGAGUGCUGAUCCGUGAUGAGAUAGUAAGUGCAAUCU",
+        "unpairedMsa": ""
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}

@@ -1,0 +1,51 @@
+{
+  "folds": [
+    {
+      "target": "Abrin toxin, Abrus precatorius (A.precatorius)",
+      "n": 8,
+      "rho": -0.7142857142857144,
+      "p": 0.04652823228416724
+    },
+    {
+      "target": "Autonomously replicating sequence\u2010binding factor 1 (ABF1) protein",
+      "n": 8,
+      "rho": 0.30952380952380953,
+      "p": 0.4556448907375822
+    },
+    {
+      "target": "Basic fibroblast growth factor (bFGF)",
+      "n": 10,
+      "rho": -0.18237166310401937,
+      "p": 0.6140677514955037
+    },
+    {
+      "target": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev)",
+      "n": 12,
+      "rho": null,
+      "p": null
+    },
+    {
+      "target": "Immunoglobulin E (IgE), Human",
+      "n": 13,
+      "rho": -0.34986358651978194,
+      "p": 0.24125706891014803
+    },
+    {
+      "target": "Thrombin, Human",
+      "n": 10,
+      "rho": 0.21276694028802262,
+      "p": 0.5550759959985581
+    },
+    {
+      "target": "Vascular Endothelial Growth Factor (VEGF)",
+      "n": 12,
+      "rho": 0.2101579405015039,
+      "p": 0.512085328993753
+    }
+  ],
+  "mean_heldout_rho": -0.08567871226602995,
+  "epochs": 12,
+  "lr": 0.0001,
+  "full_module": false,
+  "tag": "heads"
+}

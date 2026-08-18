@@ -1,0 +1,26 @@
+{
+  "name": "10000120_C5",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAGRSGDSDEELIRTVRLIKLLYQSNPPPNPEGTRQARRNRRRRWRERQRQIHSISERILGTYLGRSAEPVPLQLPPLERLTLDCNEDCGTSGTQGVGSPQILVESPTVLESGTKE",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "rna": {
+        "id": "B",
+        "sequence": "GGGAGAUACCAGCUUAUUCAAUUCAAGAAGUGGAAAUGCGCAGCGACCAUGAAACCUCGCAUGGUUCAUCGAUUGUUUGGAUAGUGUCUGUGUGAGAUAGUAAGUGCAAUCU",
+        "unpairedMsa": ""
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}

@@ -1,0 +1,184 @@
+nohup: ignoring input
+[SKIP] 10000008_5A (output already exists)
+[SKIP] 10000009_7A (output already exists)
+[SKIP] 10000010_13A (output already exists)
+[SKIP] 10000011_14A (output already exists)
+[SKIP] 10000012_21A (output already exists)
+[SKIP] 10000013_12A (output already exists)
+[SKIP] 10000014_26At (output already exists)
+[SKIP] 10000015_26A (output already exists)
+[SKIP] 10000016_22B (output already exists)
+[SKIP] 10000017_28B (output already exists)
+[SKIP] 10000073_100 (output already exists)
+[SKIP] 10000074_100t (output already exists)
+[SKIP] 10000075_44t (output already exists)
+[SKIP] 10000076_12t (output already exists)
+[SKIP] 10000077_40t (output already exists)
+[SKIP] 10000078_84t (output already exists)
+[SKIP] 10000079_126t (output already exists)
+[SKIP] 10000080_44 (output already exists)
+[SKIP] 10000081_12 (output already exists)
+[SKIP] 10000082_40 (output already exists)
+[SKIP] 10000083_84 (output already exists)
+[SKIP] 10000084_126 (output already exists)
+[SKIP] 10000118_C18 (output already exists)
+[SKIP] 10000118_C8 (output already exists)
+[SKIP] 10000119_C17 (output already exists)
+[SKIP] 10000120_C5 (output already exists)
+[SKIP] 10000121_C1 (output already exists)
+[SKIP] 10000122_C9 (output already exists)
+[SKIP] 10000123_C15 (output already exists)
+[SKIP] 10000124_C24 (output already exists)
+[SKIP] 10000125_C33 (output already exists)
+[SKIP] 10000126_C34 (output already exists)
+[SKIP] 10000127_C37 (output already exists)
+[SKIP] 10000128_C52 (output already exists)
+[SKIP] 10000131_D17.4 (output already exists)
+[SKIP] 10000146_30-8 (output already exists)
+[SKIP] 10000147_30-14 (output already exists)
+[SKIP] 10000149_30-16_29 (output already exists)
+[SKIP] 10000150_30-16_27 (output already exists)
+[SKIP] 10000152_30-38_29 (output already exists)
+[SKIP] 10000153_30-38_27 (output already exists)
+[SKIP] 10000154_60-18 (output already exists)
+[SKIP] 10000155_60-18_38 (output already exists)
+[SKIP] 10000156_60-18_29 (output already exists)
+[SKIP] 10000157_60-18_27 (output already exists)
+[SKIP] 10000498_4.4.2 (output already exists)
+[SKIP] 10000506_4.4.10 (output already exists)
+[SKIP] 10000508_4.4.12 (output already exists)
+[SKIP] 10000512_4.4.16 (output already exists)
+[SKIP] 10000516_4.4.20 (output already exists)
+[SKIP] 10000523_4.4.27 (output already exists)
+[SKIP] 10000532_Clone_2.11 (output already exists)
+[SKIP] 10000533_Clone_2.15 (output already exists)
+[SKIP] 10000534_Clone_2.22 (output already exists)
+[SKIP] 10000535_Clone_4.6 (output already exists)
+[SKIP] 10000536_Clone_4.10 (output already exists)
+[SKIP] 10000537_Clone_4.15 (output already exists)
+[SKIP] 10000557_not_reported (output already exists)
+[SKIP] 10000558_not_reported (output already exists)
+[SKIP] 10000559_Apt-_83 (output already exists)
+[SKIP] 10000560_Apt-78 (output already exists)
+[SKIP] 10000561_Apt-77 (output already exists)
+[SKIP] 10000562_Apt-106 (output already exists)
+[SKIP] 10000563_Apt-74 (output already exists)
+[RUN]  10000564_Apt-58  (2026-08-16 15:04:16)
+I0816 15:04:22.262370 22371517810496 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000564_Apt-58 after 6s (exit code 1)
+[RUN]  10000623_Ab1  (2026-08-16 15:04:22)
+I0816 15:04:25.925697 22386200139584 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000623_Ab1 after 4s (exit code 1)
+[RUN]  10000624_Ab2  (2026-08-16 15:04:26)
+I0816 15:04:29.595495 22818059990848 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000624_Ab2 after 4s (exit code 1)
+[RUN]  10000625_Ab3  (2026-08-16 15:04:30)
+I0816 15:04:33.445258 22798782101312 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000625_Ab3 after 4s (exit code 1)
+[RUN]  10000626_Ab4  (2026-08-16 15:04:34)
+I0816 15:04:36.849601 22849098716992 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000626_Ab4 after 3s (exit code 1)
+[RUN]  10000627_Ab5  (2026-08-16 15:04:37)
+I0816 15:04:40.163576 23436140627776 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000627_Ab5 after 3s (exit code 1)
+[SKIP] 10000628_Ab6 (output already exists)
+[RUN]  10000629_Ab7  (2026-08-16 15:04:40)
+I0816 15:04:43.604414 22791618250560 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000629_Ab7 after 4s (exit code 1)
+[RUN]  10000630_Ab8  (2026-08-16 15:04:44)
+I0816 15:04:46.977817 22680622999360 xla_bridge.py:849] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 1092, in <module>
+    app.run(main)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 316, in run
+    _run_main(main, args)
+  File "/home/gavirial/alphafold3/.venv/lib/python3.12/site-packages/absl/app.py", line 261, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/home/gavirial/alphafold3/run_alphafold.py", line 973, in main
+    raise ValueError(
+ValueError: For devices with GPU compute capability 7.x (see https://developer.nvidia.com/cuda-gpus) the ENV XLA_FLAGS must include "--xla_disable_hlo_passes=custom-kernel-fusion-rewriter".
+[FAIL] 10000630_Ab8 after 3s (exit code 1)
+
+===== Batch summary =====
+Total inputs:     73
+Already done:     65
+Run this session: 0
+Failed:           8

@@ -1,0 +1,613 @@
+nohup: ignoring input
+=== Inject AF3 coordinates ===
+Injecting AF3 coords for 73 job(s)
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1635), 'res_idx': np.int32(146), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2509 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000008_5A: heavy atoms 2790/2790 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000008_5A/pre_affinity_10000008_5A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1645), 'res_idx': np.int32(146), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2525 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000009_7A: heavy atoms 2800/2800 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000009_7A/pre_affinity_10000009_7A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1645), 'res_idx': np.int32(146), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2527 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000010_13A: heavy atoms 2800/2800 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000010_13A/pre_affinity_10000010_13A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1646), 'res_idx': np.int32(146), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2525 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000011_14A: heavy atoms 2801/2801 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000011_14A/pre_affinity_10000011_14A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1642), 'res_idx': np.int32(146), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2517 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000012_21A: heavy atoms 2797/2797 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000012_21A/pre_affinity_10000012_21A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1698), 'res_idx': np.int32(146), 'res_num': np.int32(79), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2572 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000013_12A: heavy atoms 2853/2853 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000013_12A/pre_affinity_10000013_12A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(729), 'res_idx': np.int32(146), 'res_num': np.int32(34), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1765 atoms, 180 residues)
+  residue-name alignment: offset=+1 (180 residues agree with AF3)
+10000014_26At: heavy atoms 1884/1884 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000014_26At/pre_affinity_10000014_26At.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1700), 'res_idx': np.int32(146), 'res_num': np.int32(79), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2574 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000015_26A: heavy atoms 2855/2855 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000015_26A/pre_affinity_10000015_26A.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1694), 'res_idx': np.int32(146), 'res_num': np.int32(79), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2563 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000016_22B: heavy atoms 2849/2849 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000016_22B/pre_affinity_10000016_22B.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1155), 'res_idx': np.int32(0), 'res_num': np.int32(146), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1155), 'atom_num': np.int32(1697), 'res_idx': np.int32(146), 'res_num': np.int32(79), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2567 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000017_28B: heavy atoms 2852/2852 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000017_28B/pre_affinity_10000017_28B.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1624), 'res_idx': np.int32(165), 'res_num': np.int32(76), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2541 atoms, 241 residues)
+  residue-name alignment: offset=+1 (241 residues agree with AF3)
+10000073_100: heavy atoms 2814/2814 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000073_100/pre_affinity_10000073_100.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(662), 'res_idx': np.int32(165), 'res_num': np.int32(31), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1741 atoms, 196 residues)
+  residue-name alignment: offset=+1 (196 residues agree with AF3)
+10000074_100t: heavy atoms 1852/1852 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000074_100t/pre_affinity_10000074_100t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(752), 'res_idx': np.int32(165), 'res_num': np.int32(35), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1817 atoms, 200 residues)
+  residue-name alignment: offset=+1 (200 residues agree with AF3)
+10000075_44t: heavy atoms 1942/1942 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000075_44t/pre_affinity_10000075_44t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(620), 'res_idx': np.int32(165), 'res_num': np.int32(29), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1706 atoms, 194 residues)
+  residue-name alignment: offset=+1 (194 residues agree with AF3)
+10000076_12t: heavy atoms 1810/1810 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000076_12t/pre_affinity_10000076_12t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(615), 'res_idx': np.int32(165), 'res_num': np.int32(29), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1696 atoms, 194 residues)
+  residue-name alignment: offset=+1 (194 residues agree with AF3)
+10000077_40t: heavy atoms 1805/1805 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000077_40t/pre_affinity_10000077_40t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(768), 'res_idx': np.int32(165), 'res_num': np.int32(36), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1826 atoms, 201 residues)
+  residue-name alignment: offset=+1 (201 residues agree with AF3)
+10000078_84t: heavy atoms 1958/1958 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000078_84t/pre_affinity_10000078_84t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(750), 'res_idx': np.int32(165), 'res_num': np.int32(35), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (1811 atoms, 200 residues)
+  residue-name alignment: offset=+1 (200 residues agree with AF3)
+10000079_126t: heavy atoms 1940/1940 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000079_126t/pre_affinity_10000079_126t.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1712), 'res_idx': np.int32(165), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2613 atoms, 245 residues)
+  residue-name alignment: offset=+1 (245 residues agree with AF3)
+10000080_44: heavy atoms 2902/2902 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000080_44/pre_affinity_10000080_44.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1652), 'res_idx': np.int32(165), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2570 atoms, 242 residues)
+  residue-name alignment: offset=+1 (242 residues agree with AF3)
+10000081_12: heavy atoms 2842/2842 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000081_12/pre_affinity_10000081_12.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1650), 'res_idx': np.int32(165), 'res_num': np.int32(77), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2564 atoms, 242 residues)
+  residue-name alignment: offset=+1 (242 residues agree with AF3)
+10000082_40: heavy atoms 2840/2840 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000082_40/pre_affinity_10000082_40.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1776), 'res_idx': np.int32(165), 'res_num': np.int32(83), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2666 atoms, 248 residues)
+  residue-name alignment: offset=+1 (248 residues agree with AF3)
+10000083_84: heavy atoms 2966/2966 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000083_84/pre_affinity_10000083_84.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1190), 'res_idx': np.int32(0), 'res_num': np.int32(165), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1190), 'atom_num': np.int32(1712), 'res_idx': np.int32(165), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2611 atoms, 245 residues)
+  residue-name alignment: offset=+1 (245 residues agree with AF3)
+10000084_126: heavy atoms 2902/2902 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000084_126/pre_affinity_10000084_126.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2348), 'res_idx': np.int32(116), 'res_num': np.int32(110), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2850 atoms, 226 residues)
+  residue-name alignment: offset=+1 (226 residues agree with AF3)
+10000118_C18: heavy atoms 3264/3264 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000118_C18/pre_affinity_10000118_C18.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2348), 'res_idx': np.int32(116), 'res_num': np.int32(110), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2850 atoms, 226 residues)
+  residue-name alignment: offset=+1 (226 residues agree with AF3)
+10000118_C8: heavy atoms 3264/3264 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000118_C8/pre_affinity_10000118_C8.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2318), 'res_idx': np.int32(116), 'res_num': np.int32(109), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2816 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000119_C17: heavy atoms 3234/3234 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000119_C17/pre_affinity_10000119_C17.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2394), 'res_idx': np.int32(116), 'res_num': np.int32(112), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2895 atoms, 228 residues)
+  residue-name alignment: offset=+1 (228 residues agree with AF3)
+10000120_C5: heavy atoms 3310/3310 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000120_C5/pre_affinity_10000120_C5.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2322), 'res_idx': np.int32(116), 'res_num': np.int32(109), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2835 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000121_C1: heavy atoms 3238/3238 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000121_C1/pre_affinity_10000121_C1.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2335), 'res_idx': np.int32(116), 'res_num': np.int32(109), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2857 atoms, 225 residues)
+  residue-name alignment: offset=+1 (225 residues agree with AF3)
+10000122_C9: heavy atoms 3251/3251 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000122_C9/pre_affinity_10000122_C9.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2402), 'res_idx': np.int32(116), 'res_num': np.int32(112), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2911 atoms, 228 residues)
+  residue-name alignment: offset=+1 (228 residues agree with AF3)
+10000123_C15: heavy atoms 3318/3318 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000123_C15/pre_affinity_10000123_C15.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2389), 'res_idx': np.int32(116), 'res_num': np.int32(112), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2887 atoms, 228 residues)
+  residue-name alignment: offset=+1 (228 residues agree with AF3)
+10000124_C24: heavy atoms 3305/3305 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000124_C24/pre_affinity_10000124_C24.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2370), 'res_idx': np.int32(116), 'res_num': np.int32(111), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2875 atoms, 227 residues)
+  residue-name alignment: offset=+1 (227 residues agree with AF3)
+10000125_C33: heavy atoms 3286/3286 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000125_C33/pre_affinity_10000125_C33.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2312), 'res_idx': np.int32(116), 'res_num': np.int32(108), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2829 atoms, 224 residues)
+  residue-name alignment: offset=+1 (224 residues agree with AF3)
+10000126_C34: heavy atoms 3228/3228 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000126_C34/pre_affinity_10000126_C34.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2396), 'res_idx': np.int32(116), 'res_num': np.int32(112), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2900 atoms, 228 residues)
+  residue-name alignment: offset=+1 (228 residues agree with AF3)
+10000127_C37: heavy atoms 3312/3312 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000127_C37/pre_affinity_10000127_C37.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(916), 'res_idx': np.int32(0), 'res_num': np.int32(116), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(2), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(916), 'atom_num': np.int32(2281), 'res_idx': np.int32(116), 'res_num': np.int32(107), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (2797 atoms, 223 residues)
+  residue-name alignment: offset=+1 (223 residues agree with AF3)
+10000128_C52: heavy atoms 3197/3197 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000128_C52/pre_affinity_10000128_C52.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(751), 'res_idx': np.int32(391), 'res_num': np.int32(37), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (3606 atoms, 428 residues)
+  residue-name alignment: offset=+1 (428 residues agree with AF3)
+10000131_D17.4: heavy atoms 3724/3724 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000131_D17.4/pre_affinity_10000131_D17.4.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(1558), 'res_idx': np.int32(308), 'res_num': np.int32(75), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3805 atoms, 383 residues)
+  residue-name alignment: offset=+1 (383 residues agree with AF3)
+10000146_30-8: heavy atoms 4046/4046 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000146_30-8/pre_affinity_10000146_30-8.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(1560), 'res_idx': np.int32(308), 'res_num': np.int32(75), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3804 atoms, 383 residues)
+  residue-name alignment: offset=+1 (383 residues agree with AF3)
+10000147_30-14: heavy atoms 4048/4048 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000147_30-14/pre_affinity_10000147_30-14.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(609), 'res_idx': np.int32(308), 'res_num': np.int32(29), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3006 atoms, 337 residues)
+  residue-name alignment: offset=+1 (337 residues agree with AF3)
+10000149_30-16_29: heavy atoms 3097/3097 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000149_30-16_29/pre_affinity_10000149_30-16_29.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(568), 'res_idx': np.int32(308), 'res_num': np.int32(27), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (2971 atoms, 335 residues)
+  residue-name alignment: offset=+1 (335 residues agree with AF3)
+10000150_30-16_27: heavy atoms 3056/3056 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000150_30-16_27/pre_affinity_10000150_30-16_27.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(610), 'res_idx': np.int32(308), 'res_num': np.int32(29), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3008 atoms, 337 residues)
+  residue-name alignment: offset=+1 (337 residues agree with AF3)
+10000152_30-38_29: heavy atoms 3098/3098 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000152_30-38_29/pre_affinity_10000152_30-38_29.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(569), 'res_idx': np.int32(308), 'res_num': np.int32(27), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (2973 atoms, 335 residues)
+  residue-name alignment: offset=+1 (335 residues agree with AF3)
+10000153_30-38_27: heavy atoms 3057/3057 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000153_30-38_27/pre_affinity_10000153_30-38_27.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(2182), 'res_idx': np.int32(308), 'res_num': np.int32(105), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (4333 atoms, 413 residues)
+  residue-name alignment: offset=+1 (413 residues agree with AF3)
+10000154_60-18: heavy atoms 4670/4670 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000154_60-18/pre_affinity_10000154_60-18.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(794), 'res_idx': np.int32(308), 'res_num': np.int32(38), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3162 atoms, 346 residues)
+  residue-name alignment: offset=+1 (346 residues agree with AF3)
+10000155_60-18_38: heavy atoms 3282/3282 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000155_60-18_38/pre_affinity_10000155_60-18_38.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(608), 'res_idx': np.int32(308), 'res_num': np.int32(29), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (3005 atoms, 337 residues)
+  residue-name alignment: offset=+1 (337 residues agree with AF3)
+10000156_60-18_29: heavy atoms 3096/3096 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000156_60-18_29/pre_affinity_10000156_60-18_29.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(396), 'res_idx': np.int32(0), 'res_num': np.int32(49), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(396), 'atom_num': np.int32(2092), 'res_idx': np.int32(49), 'res_num': np.int32(259), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(2488), 'atom_num': np.int32(567), 'res_idx': np.int32(308), 'res_num': np.int32(27), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (2971 atoms, 335 residues)
+  residue-name alignment: offset=+1 (335 residues agree with AF3)
+10000157_60-18_27: heavy atoms 3055/3055 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000157_60-18_27/pre_affinity_10000157_60-18_27.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1604), 'res_idx': np.int32(391), 'res_num': np.int32(78), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4328 atoms, 469 residues)
+  residue-name alignment: offset=+1 (469 residues agree with AF3)
+10000498_4.4.2: heavy atoms 4577/4577 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000498_4.4.2/pre_affinity_10000498_4.4.2.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1648), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4367 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000506_4.4.10: heavy atoms 4621/4621 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000506_4.4.10/pre_affinity_10000506_4.4.10.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1600), 'res_idx': np.int32(391), 'res_num': np.int32(78), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4320 atoms, 469 residues)
+  residue-name alignment: offset=+1 (469 residues agree with AF3)
+10000508_4.4.12: heavy atoms 4573/4573 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000508_4.4.12/pre_affinity_10000508_4.4.12.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1638), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4353 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000512_4.4.16: heavy atoms 4611/4611 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000512_4.4.16/pre_affinity_10000512_4.4.16.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1651), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4363 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000516_4.4.20: heavy atoms 4624/4624 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000516_4.4.20/pre_affinity_10000516_4.4.20.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1659), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4375 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000523_4.4.27: heavy atoms 4632/4632 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000523_4.4.27/pre_affinity_10000523_4.4.27.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1661), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4376 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000532_Clone_2.11: heavy atoms 4634/4634 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000532_Clone_2.11/pre_affinity_10000532_Clone_2.11.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1646), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4364 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000533_Clone_2.15: heavy atoms 4619/4619 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000533_Clone_2.15/pre_affinity_10000533_Clone_2.15.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1653), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4368 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000534_Clone_2.22: heavy atoms 4626/4626 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000534_Clone_2.22/pre_affinity_10000534_Clone_2.22.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1639), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4352 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000535_Clone_4.6: heavy atoms 4612/4612 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000535_Clone_4.6/pre_affinity_10000535_Clone_4.6.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1652), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4367 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000536_Clone_4.10: heavy atoms 4625/4625 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000536_Clone_4.10/pre_affinity_10000536_Clone_4.10.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(2973), 'res_idx': np.int32(0), 'res_num': np.int32(391), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(2973), 'atom_num': np.int32(1656), 'res_idx': np.int32(391), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (4375 atoms, 471 residues)
+  residue-name alignment: offset=+1 (471 residues agree with AF3)
+10000537_Clone_4.15: heavy atoms 4629/4629 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000537_Clone_4.15/pre_affinity_10000537_Clone_4.15.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1523), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5297 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000557_not_reported: heavy atoms 5533/5533 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000557_not_reported/pre_affinity_10000557_not_reported.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1532), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5305 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000558_not_reported: heavy atoms 5542/5542 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000558_not_reported/pre_affinity_10000558_not_reported.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1525), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5299 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000559_Apt-_83: heavy atoms 5535/5535 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000559_Apt-_83/pre_affinity_10000559_Apt-_83.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1534), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5305 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000560_Apt-78: heavy atoms 5544/5544 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000560_Apt-78/pre_affinity_10000560_Apt-78.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1534), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5300 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000561_Apt-77: heavy atoms 5544/5544 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000561_Apt-77/pre_affinity_10000561_Apt-77.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1532), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5302 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000562_Apt-106: heavy atoms 5542/5542 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000562_Apt-106/pre_affinity_10000562_Apt-106.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1534), 'res_idx': np.int32(494), 'res_num': np.int32(74), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5305 atoms, 568 residues)
+  residue-name alignment: offset=+1 (568 residues agree with AF3)
+10000563_Apt-74: heavy atoms 5544/5544 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000563_Apt-74/pre_affinity_10000563_Apt-74.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(4010), 'res_idx': np.int32(0), 'res_num': np.int32(494), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(1), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(4010), 'atom_num': np.int32(1548), 'res_idx': np.int32(494), 'res_num': np.int32(75), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B']  (5316 atoms, 569 residues)
+  residue-name alignment: offset=+1 (569 residues agree with AF3)
+10000564_Apt-58: heavy atoms 5558/5558 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000564_Apt-58/pre_affinity_10000564_Apt-58.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1654), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5488 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000623_Ab1: heavy atoms 5741/5741 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000623_Ab1/pre_affinity_10000623_Ab1.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1622), 'res_idx': np.int32(518), 'res_num': np.int32(79), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5460 atoms, 597 residues)
+  residue-name alignment: offset=+1 (597 residues agree with AF3)
+10000624_Ab2: heavy atoms 5709/5709 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000624_Ab2/pre_affinity_10000624_Ab2.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1647), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5482 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000625_Ab3: heavy atoms 5734/5734 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000625_Ab3/pre_affinity_10000625_Ab3.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1645), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5478 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000626_Ab4: heavy atoms 5732/5732 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000626_Ab4/pre_affinity_10000626_Ab4.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1654), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5485 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000627_Ab5: heavy atoms 5741/5741 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000627_Ab5/pre_affinity_10000627_Ab5.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1646), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5480 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000628_Ab6: heavy atoms 5733/5733 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000628_Ab6/pre_affinity_10000628_Ab6.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1640), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5469 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000629_Ab7: heavy atoms 5727/5727 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000629_Ab7/pre_affinity_10000629_Ab7.npz
+  Boltz chains:
+    {'name': np.str_('A'), 'mol_type': np.int8(0), 'entity_id': np.int32(0), 'sym_id': np.int32(0), 'asym_id': np.int32(0), 'atom_idx': np.int32(0), 'atom_num': np.int32(1982), 'res_idx': np.int32(0), 'res_num': np.int32(251), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('B'), 'mol_type': np.int8(0), 'entity_id': np.int32(1), 'sym_id': np.int32(0), 'asym_id': np.int32(1), 'atom_idx': np.int32(1982), 'atom_num': np.int32(2105), 'res_idx': np.int32(251), 'res_num': np.int32(267), 'cyclic_period': np.int32(0)}
+    {'name': np.str_('C'), 'mol_type': np.int8(1), 'entity_id': np.int32(2), 'sym_id': np.int32(0), 'asym_id': np.int32(2), 'atom_idx': np.int32(4087), 'atom_num': np.int32(1647), 'res_idx': np.int32(518), 'res_num': np.int32(80), 'cyclic_period': np.int32(0)}
+  AF3 chains: ['A', 'B', 'C']  (5482 atoms, 598 residues)
+  residue-name alignment: offset=+1 (598 residues agree with AF3)
+10000630_Ab8: heavy atoms 5734/5734 (100.0%); hydrogens 0/0 (AF3 usually has no H, so unmatched H is OK)
+  wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_boltz_affinity/predictions/10000630_Ab8/pre_affinity_10000630_Ab8.npz
+
+=== Run Boltz affinity module on AF3 poses ===
+[SKIP] 10000008_5A
+[SKIP] 10000009_7A
+[SKIP] 10000010_13A
+[SKIP] 10000011_14A
+[SKIP] 10000012_21A
+[SKIP] 10000013_12A
+[SKIP] 10000014_26At
+[SKIP] 10000015_26A
+[SKIP] 10000016_22B
+[SKIP] 10000017_28B
+[SKIP] 10000073_100
+[SKIP] 10000074_100t
+[SKIP] 10000075_44t
+[SKIP] 10000076_12t
+[SKIP] 10000077_40t
+[SKIP] 10000078_84t
+[SKIP] 10000079_126t
+[SKIP] 10000080_44
+[SKIP] 10000081_12
+[SKIP] 10000082_40
+[SKIP] 10000083_84
+[SKIP] 10000084_126
+[SKIP] 10000118_C18
+[SKIP] 10000118_C8
+[SKIP] 10000119_C17
+[SKIP] 10000120_C5
+[SKIP] 10000121_C1
+[SKIP] 10000122_C9
+[SKIP] 10000123_C15
+[SKIP] 10000124_C24
+[SKIP] 10000125_C33
+[SKIP] 10000126_C34
+[SKIP] 10000127_C37
+[SKIP] 10000128_C52
+[SKIP] 10000131_D17.4
+[SKIP] 10000146_30-8
+[SKIP] 10000147_30-14
+[SKIP] 10000149_30-16_29
+[SKIP] 10000150_30-16_27
+[SKIP] 10000152_30-38_29
+[SKIP] 10000153_30-38_27
+[SKIP] 10000154_60-18
+[SKIP] 10000155_60-18_38
+[SKIP] 10000156_60-18_29
+[SKIP] 10000157_60-18_27
+[SKIP] 10000498_4.4.2
+[SKIP] 10000506_4.4.10
+[SKIP] 10000508_4.4.12
+[SKIP] 10000512_4.4.16
+[SKIP] 10000516_4.4.20
+[SKIP] 10000523_4.4.27
+[SKIP] 10000532_Clone_2.11
+[SKIP] 10000533_Clone_2.15
+[SKIP] 10000534_Clone_2.22
+[SKIP] 10000535_Clone_4.6
+[SKIP] 10000536_Clone_4.10
+[SKIP] 10000537_Clone_4.15
+[SKIP] 10000557_not_reported
+[SKIP] 10000558_not_reported
+[SKIP] 10000559_Apt-_83
+[SKIP] 10000560_Apt-78
+[SKIP] 10000561_Apt-77
+[SKIP] 10000562_Apt-106
+[SKIP] 10000563_Apt-74
+[SKIP] 10000564_Apt-58
+[SKIP] 10000623_Ab1
+[SKIP] 10000624_Ab2
+[SKIP] 10000625_Ab3
+[SKIP] 10000626_Ab4
+[SKIP] 10000627_Ab5
+[SKIP] 10000628_Ab6
+[SKIP] 10000629_Ab7
+[SKIP] 10000630_Ab8
+
+===== Batch summary =====
+Total:   73
+Skip:    73
+Run:     0
+Failed:  0

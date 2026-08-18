@@ -1,6 +1,10 @@
 # Model weights (never redistribute per AF3/Boltz terms of use)
 *.bin
 *.bin.zst
+*.ckpt
+*.pt
+*.pth
+*.safetensors
 af3_extracted/
 .boltz/
 
@@ -12,9 +16,20 @@ af3_extracted/
 __pycache__/
 *.pyc
 
-# Heavy outputs (structures, not tracked — summarize in results/ instead)
+# Heavy outputs (structures stay on Andromeda — rankings live in report/)
 *.cif
+*.npz
+*.pkl
 *_test_output/
+results/
+inputs/af3_msa/
+data/msa_cache/.work/
+
+# Multi-MB AF3/JAX runtime dumps (keep the smaller docs/ logs)
+docs/af3_batch_log.txt
+docs/af3_batch_log2.txt
+docs/af3_batch_log4.txt
+docs/af3_msa_batch_log.txt
 
 # Editor/system files
 .DS_Store

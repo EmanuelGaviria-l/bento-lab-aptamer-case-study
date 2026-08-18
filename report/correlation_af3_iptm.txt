@@ -1,0 +1,25 @@
+AF3 ipTM (cached protein MSAs) — predicted score vs experimental Kd
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Predicted column: iptm (higher = tighter / more confident).
+Experimental: kd_nm (lower = tighter binding).
+Because the predicted score is higher-is-better, AGREEMENT with experiment is a NEGATIVE Spearman rho (high confidence with low Kd).
+
+Overall (n=73, all 7 targets pooled):
+  Spearman rho = 0.2462
+  p-value      = 0.03577
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8   -0.7880     0.02019
+Autonomously replicating sequence‐binding factor 1 (...   8    0.4431      0.2715
+Basic fibroblast growth factor (bFGF)                    10   -0.0864      0.8123
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12    (Kd ties, skipped)
+Immunoglobulin E (IgE), Human                            13       nan         nan
+Thrombin, Human                                          10   -0.2324      0.5182
+Vascular Endothelial Growth Factor (VEGF)                12    0.0630      0.8459
+
+Mean per-target rho (n_targets=6, HIV-Rev-style ties excluded):
+  nan

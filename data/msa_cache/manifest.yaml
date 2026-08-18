@@ -1,0 +1,73 @@
+chains:
+- msa_id: P00734_light_chain
+  target: Thrombin, Human
+  uniprot: P00734
+  label: light chain
+  sequence_length: 49
+  fasta: data/msa_cache/fasta/P00734_light_chain.fasta
+  a3m: data/msa_cache/P00734_light_chain.a3m
+  status: ready
+- msa_id: P00734_heavy_chain
+  target: Thrombin, Human
+  uniprot: P00734
+  label: heavy chain
+  sequence_length: 259
+  fasta: data/msa_cache/fasta/P00734_heavy_chain.fasta
+  a3m: data/msa_cache/P00734_heavy_chain.a3m
+  status: ready
+- msa_id: P15692_vegf165_mature_signal_peptide_removed
+  target: Vascular Endothelial Growth Factor (VEGF)
+  uniprot: P15692
+  label: VEGF165 (mature, signal peptide removed)
+  sequence_length: 165
+  fasta: data/msa_cache/fasta/P15692_vegf165_mature_signal_peptide_removed.fasta
+  a3m: data/msa_cache/P15692_vegf165_mature_signal_peptide_removed.a3m
+  status: ready
+- msa_id: P09038_fgf2_mature_secreted_form
+  target: Basic fibroblast growth factor (bFGF)
+  uniprot: P09038
+  label: FGF2, mature secreted form
+  sequence_length: 146
+  fasta: data/msa_cache/fasta/P09038_fgf2_mature_secreted_form.fasta
+  a3m: data/msa_cache/P09038_fgf2_mature_secreted_form.a3m
+  status: ready
+- msa_id: P04618_rev_full_length_no_processing
+  target: Human immunodeficiency virus type 1 Rev (HIV-1 Rev)
+  uniprot: P04618
+  label: Rev (full length, no processing)
+  sequence_length: 116
+  fasta: data/msa_cache/fasta/P04618_rev_full_length_no_processing.fasta
+  a3m: data/msa_cache/P04618_rev_full_length_no_processing.a3m
+  status: ready
+- msa_id: P01877_ige_heavy_chain_constant_region
+  target: Immunoglobulin E (IgE), Human
+  uniprot: P01877
+  label: IgE heavy chain constant region
+  sequence_length: 391
+  fasta: data/msa_cache/fasta/P01877_ige_heavy_chain_constant_region.fasta
+  a3m: data/msa_cache/P01877_ige_heavy_chain_constant_region.a3m
+  status: ready
+- msa_id: P39946_abf1_full_length_no_signal_propeptide
+  target: "Autonomously replicating sequence\u2010binding factor 1 (ABF1) protein"
+  uniprot: P39946
+  label: ABF1 (full length, no signal/propeptide)
+  sequence_length: 494
+  fasta: data/msa_cache/fasta/P39946_abf1_full_length_no_signal_propeptide.fasta
+  a3m: data/msa_cache/P39946_abf1_full_length_no_signal_propeptide.a3m
+  status: ready
+- msa_id: P11140_a_chain_catalytic
+  target: Abrin toxin, Abrus precatorius (A.precatorius)
+  uniprot: P11140
+  label: A chain (catalytic)
+  sequence_length: 251
+  fasta: data/msa_cache/fasta/P11140_a_chain_catalytic.fasta
+  a3m: data/msa_cache/P11140_a_chain_catalytic.a3m
+  status: ready
+- msa_id: P11140_b_chain_lectin
+  target: Abrin toxin, Abrus precatorius (A.precatorius)
+  uniprot: P11140
+  label: B chain (lectin)
+  sequence_length: 267
+  fasta: data/msa_cache/fasta/P11140_b_chain_lectin.fasta
+  a3m: data/msa_cache/P11140_b_chain_lectin.a3m
+  status: ready

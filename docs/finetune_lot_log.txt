@@ -1,0 +1,682 @@
+nohup: ignoring input
+Cached complexes: 73 across 7 targets
+Mode: full AffinityModule
+Epochs: 12
+
+=== Hold out: Abrin toxin, Abrus precatorius (A.precatorius)  (train 65, test 8) ===
+/home/gavirial/boltz/.venv-boltz/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+  trainable tensors: 518  params: 8,741,896
+/home/gavirial/boltz/.venv-boltz/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:745: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  epoch 01  step 10/65
+  epoch 01  step 20/65
+  epoch 01  step 30/65
+  epoch 01  step 40/65
+  epoch 01  step 50/65
+  epoch 01  step 60/65
+  epoch 01  train MSE 1.0467
+  epoch 02  step 10/65
+  epoch 02  step 20/65
+  epoch 02  step 30/65
+  epoch 02  step 40/65
+  epoch 02  step 50/65
+  epoch 02  step 60/65
+  epoch 02  train MSE 0.8450
+  epoch 03  step 10/65
+  epoch 03  step 20/65
+  epoch 03  step 30/65
+  epoch 03  step 40/65
+  epoch 03  step 50/65
+  epoch 03  step 60/65
+  epoch 03  train MSE 1.0003
+  epoch 04  step 10/65
+  epoch 04  step 20/65
+  epoch 04  step 30/65
+  epoch 04  step 40/65
+  epoch 04  step 50/65
+  epoch 04  step 60/65
+  epoch 04  train MSE 0.8763
+  epoch 05  step 10/65
+  epoch 05  step 20/65
+  epoch 05  step 30/65
+  epoch 05  step 40/65
+  epoch 05  step 50/65
+  epoch 05  step 60/65
+  epoch 05  train MSE 0.7923
+  epoch 06  step 10/65
+  epoch 06  step 20/65
+  epoch 06  step 30/65
+  epoch 06  step 40/65
+  epoch 06  step 50/65
+  epoch 06  step 60/65
+  epoch 06  train MSE 0.6951
+  epoch 07  step 10/65
+  epoch 07  step 20/65
+  epoch 07  step 30/65
+  epoch 07  step 40/65
+  epoch 07  step 50/65
+  epoch 07  step 60/65
+  epoch 07  train MSE 0.9969
+  epoch 08  step 10/65
+  epoch 08  step 20/65
+  epoch 08  step 30/65
+  epoch 08  step 40/65
+  epoch 08  step 50/65
+  epoch 08  step 60/65
+  epoch 08  train MSE 0.7938
+  epoch 09  step 10/65
+  epoch 09  step 20/65
+  epoch 09  step 30/65
+  epoch 09  step 40/65
+  epoch 09  step 50/65
+  epoch 09  step 60/65
+  epoch 09  train MSE 0.6504
+  epoch 10  step 10/65
+  epoch 10  step 20/65
+  epoch 10  step 30/65
+  epoch 10  step 40/65
+  epoch 10  step 50/65
+  epoch 10  step 60/65
+  epoch 10  train MSE 0.8857
+  epoch 11  step 10/65
+  epoch 11  step 20/65
+  epoch 11  step 30/65
+  epoch 11  step 40/65
+  epoch 11  step 50/65
+  epoch 11  step 60/65
+  epoch 11  train MSE 0.4973
+  epoch 12  step 10/65
+  epoch 12  step 20/65
+  epoch 12  step 30/65
+  epoch 12  step 40/65
+  epoch 12  step 50/65
+  epoch 12  step 60/65
+  epoch 12  train MSE 0.6257
+  held-out Spearman rho=-0.7857142857142858 p=0.020815127253525276
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Autonomously replicating sequence‐binding factor 1 (ABF1) protein  (train 65, test 8) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/65
+  epoch 01  step 20/65
+  epoch 01  step 30/65
+  epoch 01  step 40/65
+  epoch 01  step 50/65
+  epoch 01  step 60/65
+  epoch 01  train MSE 1.0802
+  epoch 02  step 10/65
+  epoch 02  step 20/65
+  epoch 02  step 30/65
+  epoch 02  step 40/65
+  epoch 02  step 50/65
+  epoch 02  step 60/65
+  epoch 02  train MSE 0.7636
+  epoch 03  step 10/65
+  epoch 03  step 20/65
+  epoch 03  step 30/65
+  epoch 03  step 40/65
+  epoch 03  step 50/65
+  epoch 03  step 60/65
+  epoch 03  train MSE 0.8506
+  epoch 04  step 10/65
+  epoch 04  step 20/65
+  epoch 04  step 30/65
+  epoch 04  step 40/65
+  epoch 04  step 50/65
+  epoch 04  step 60/65
+  epoch 04  train MSE 0.9788
+  epoch 05  step 10/65
+  epoch 05  step 20/65
+  epoch 05  step 30/65
+  epoch 05  step 40/65
+  epoch 05  step 50/65
+  epoch 05  step 60/65
+  epoch 05  train MSE 0.6743
+  epoch 06  step 10/65
+  epoch 06  step 20/65
+  epoch 06  step 30/65
+  epoch 06  step 40/65
+  epoch 06  step 50/65
+  epoch 06  step 60/65
+  epoch 06  train MSE 0.6122
+  epoch 07  step 10/65
+  epoch 07  step 20/65
+  epoch 07  step 30/65
+  epoch 07  step 40/65
+  epoch 07  step 50/65
+  epoch 07  step 60/65
+  epoch 07  train MSE 0.5466
+  epoch 08  step 10/65
+  epoch 08  step 20/65
+  epoch 08  step 30/65
+  epoch 08  step 40/65
+  epoch 08  step 50/65
+  epoch 08  step 60/65
+  epoch 08  train MSE 0.5785
+  epoch 09  step 10/65
+  epoch 09  step 20/65
+  epoch 09  step 30/65
+  epoch 09  step 40/65
+  epoch 09  step 50/65
+  epoch 09  step 60/65
+  epoch 09  train MSE 0.6583
+  epoch 10  step 10/65
+  epoch 10  step 20/65
+  epoch 10  step 30/65
+  epoch 10  step 40/65
+  epoch 10  step 50/65
+  epoch 10  step 60/65
+  epoch 10  train MSE 0.4833
+  epoch 11  step 10/65
+  epoch 11  step 20/65
+  epoch 11  step 30/65
+  epoch 11  step 40/65
+  epoch 11  step 50/65
+  epoch 11  step 60/65
+  epoch 11  train MSE 0.2491
+  epoch 12  step 10/65
+  epoch 12  step 20/65
+  epoch 12  step 30/65
+  epoch 12  step 40/65
+  epoch 12  step 50/65
+  epoch 12  step 60/65
+  epoch 12  train MSE 0.1952
+  held-out Spearman rho=-0.2380952380952381 p=0.5701563208157683
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Basic fibroblast growth factor (bFGF)  (train 63, test 10) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/63
+  epoch 01  step 20/63
+  epoch 01  step 30/63
+  epoch 01  step 40/63
+  epoch 01  step 50/63
+  epoch 01  step 60/63
+  epoch 01  train MSE 1.2824
+  epoch 02  step 10/63
+  epoch 02  step 20/63
+  epoch 02  step 30/63
+  epoch 02  step 40/63
+  epoch 02  step 50/63
+  epoch 02  step 60/63
+  epoch 02  train MSE 0.8946
+  epoch 03  step 10/63
+  epoch 03  step 20/63
+  epoch 03  step 30/63
+  epoch 03  step 40/63
+  epoch 03  step 50/63
+  epoch 03  step 60/63
+  epoch 03  train MSE 1.1326
+  epoch 04  step 10/63
+  epoch 04  step 20/63
+  epoch 04  step 30/63
+  epoch 04  step 40/63
+  epoch 04  step 50/63
+  epoch 04  step 60/63
+  epoch 04  train MSE 0.6259
+  epoch 05  step 10/63
+  epoch 05  step 20/63
+  epoch 05  step 30/63
+  epoch 05  step 40/63
+  epoch 05  step 50/63
+  epoch 05  step 60/63
+  epoch 05  train MSE 0.6744
+  epoch 06  step 10/63
+  epoch 06  step 20/63
+  epoch 06  step 30/63
+  epoch 06  step 40/63
+  epoch 06  step 50/63
+  epoch 06  step 60/63
+  epoch 06  train MSE 0.7854
+  epoch 07  step 10/63
+  epoch 07  step 20/63
+  epoch 07  step 30/63
+  epoch 07  step 40/63
+  epoch 07  step 50/63
+  epoch 07  step 60/63
+  epoch 07  train MSE 0.7575
+  epoch 08  step 10/63
+  epoch 08  step 20/63
+  epoch 08  step 30/63
+  epoch 08  step 40/63
+  epoch 08  step 50/63
+  epoch 08  step 60/63
+  epoch 08  train MSE 0.6380
+  epoch 09  step 10/63
+  epoch 09  step 20/63
+  epoch 09  step 30/63
+  epoch 09  step 40/63
+  epoch 09  step 50/63
+  epoch 09  step 60/63
+  epoch 09  train MSE 0.5324
+  epoch 10  step 10/63
+  epoch 10  step 20/63
+  epoch 10  step 30/63
+  epoch 10  step 40/63
+  epoch 10  step 50/63
+  epoch 10  step 60/63
+  epoch 10  train MSE 0.4393
+  epoch 11  step 10/63
+  epoch 11  step 20/63
+  epoch 11  step 30/63
+  epoch 11  step 40/63
+  epoch 11  step 50/63
+  epoch 11  step 60/63
+  epoch 11  train MSE 0.3806
+  epoch 12  step 10/63
+  epoch 12  step 20/63
+  epoch 12  step 30/63
+  epoch 12  step 40/63
+  epoch 12  step 50/63
+  epoch 12  step 60/63
+  epoch 12  train MSE 0.3368
+  held-out Spearman rho=-0.24316221747202585 p=0.49843371099777956
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Human immunodeficiency virus type 1 Rev (HIV-1 Rev)  (train 61, test 12) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/61
+  epoch 01  step 20/61
+  epoch 01  step 30/61
+  epoch 01  step 40/61
+  epoch 01  step 50/61
+  epoch 01  step 60/61
+  epoch 01  train MSE 1.1010
+  epoch 02  step 10/61
+  epoch 02  step 20/61
+  epoch 02  step 30/61
+  epoch 02  step 40/61
+  epoch 02  step 50/61
+  epoch 02  step 60/61
+  epoch 02  train MSE 0.7181
+  epoch 03  step 10/61
+  epoch 03  step 20/61
+  epoch 03  step 30/61
+  epoch 03  step 40/61
+  epoch 03  step 50/61
+  epoch 03  step 60/61
+  epoch 03  train MSE 0.9845
+  epoch 04  step 10/61
+  epoch 04  step 20/61
+  epoch 04  step 30/61
+  epoch 04  step 40/61
+  epoch 04  step 50/61
+  epoch 04  step 60/61
+  epoch 04  train MSE 1.1061
+  epoch 05  step 10/61
+  epoch 05  step 20/61
+  epoch 05  step 30/61
+  epoch 05  step 40/61
+  epoch 05  step 50/61
+  epoch 05  step 60/61
+  epoch 05  train MSE 0.9168
+  epoch 06  step 10/61
+  epoch 06  step 20/61
+  epoch 06  step 30/61
+  epoch 06  step 40/61
+  epoch 06  step 50/61
+  epoch 06  step 60/61
+  epoch 06  train MSE 1.0425
+  epoch 07  step 10/61
+  epoch 07  step 20/61
+  epoch 07  step 30/61
+  epoch 07  step 40/61
+  epoch 07  step 50/61
+  epoch 07  step 60/61
+  epoch 07  train MSE 1.2118
+  epoch 08  step 10/61
+  epoch 08  step 20/61
+  epoch 08  step 30/61
+  epoch 08  step 40/61
+  epoch 08  step 50/61
+  epoch 08  step 60/61
+  epoch 08  train MSE 1.1194
+  epoch 09  step 10/61
+  epoch 09  step 20/61
+  epoch 09  step 30/61
+  epoch 09  step 40/61
+  epoch 09  step 50/61
+  epoch 09  step 60/61
+  epoch 09  train MSE 1.0241
+  epoch 10  step 10/61
+  epoch 10  step 20/61
+  epoch 10  step 30/61
+  epoch 10  step 40/61
+  epoch 10  step 50/61
+  epoch 10  step 60/61
+  epoch 10  train MSE 1.2679
+  epoch 11  step 10/61
+  epoch 11  step 20/61
+  epoch 11  step 30/61
+  epoch 11  step 40/61
+  epoch 11  step 50/61
+  epoch 11  step 60/61
+  epoch 11  train MSE 0.8641
+  epoch 12  step 10/61
+  epoch 12  step 20/61
+  epoch 12  step 30/61
+  epoch 12  step 40/61
+  epoch 12  step 50/61
+  epoch 12  step 60/61
+  epoch 12  train MSE 0.9261
+  held-out Spearman skipped (ties or n<3)
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Immunoglobulin E (IgE), Human  (train 60, test 13) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/60
+  epoch 01  step 20/60
+  epoch 01  step 30/60
+  epoch 01  step 40/60
+  epoch 01  step 50/60
+  epoch 01  step 60/60
+  epoch 01  train MSE 1.2922
+  epoch 02  step 10/60
+  epoch 02  step 20/60
+  epoch 02  step 30/60
+  epoch 02  step 40/60
+  epoch 02  step 50/60
+  epoch 02  step 60/60
+  epoch 02  train MSE 1.4498
+  epoch 03  step 10/60
+  epoch 03  step 20/60
+  epoch 03  step 30/60
+  epoch 03  step 40/60
+  epoch 03  step 50/60
+  epoch 03  step 60/60
+  epoch 03  train MSE 0.9187
+  epoch 04  step 10/60
+  epoch 04  step 20/60
+  epoch 04  step 30/60
+  epoch 04  step 40/60
+  epoch 04  step 50/60
+  epoch 04  step 60/60
+  epoch 04  train MSE 1.0883
+  epoch 05  step 10/60
+  epoch 05  step 20/60
+  epoch 05  step 30/60
+  epoch 05  step 40/60
+  epoch 05  step 50/60
+  epoch 05  step 60/60
+  epoch 05  train MSE 1.0450
+  epoch 06  step 10/60
+  epoch 06  step 20/60
+  epoch 06  step 30/60
+  epoch 06  step 40/60
+  epoch 06  step 50/60
+  epoch 06  step 60/60
+  epoch 06  train MSE 1.1291
+  epoch 07  step 10/60
+  epoch 07  step 20/60
+  epoch 07  step 30/60
+  epoch 07  step 40/60
+  epoch 07  step 50/60
+  epoch 07  step 60/60
+  epoch 07  train MSE 0.7511
+  epoch 08  step 10/60
+  epoch 08  step 20/60
+  epoch 08  step 30/60
+  epoch 08  step 40/60
+  epoch 08  step 50/60
+  epoch 08  step 60/60
+  epoch 08  train MSE 0.9725
+  epoch 09  step 10/60
+  epoch 09  step 20/60
+  epoch 09  step 30/60
+  epoch 09  step 40/60
+  epoch 09  step 50/60
+  epoch 09  step 60/60
+  epoch 09  train MSE 0.7179
+  epoch 10  step 10/60
+  epoch 10  step 20/60
+  epoch 10  step 30/60
+  epoch 10  step 40/60
+  epoch 10  step 50/60
+  epoch 10  step 60/60
+  epoch 10  train MSE 0.6557
+  epoch 11  step 10/60
+  epoch 11  step 20/60
+  epoch 11  step 30/60
+  epoch 11  step 40/60
+  epoch 11  step 50/60
+  epoch 11  step 60/60
+  epoch 11  train MSE 0.4175
+  epoch 12  step 10/60
+  epoch 12  step 20/60
+  epoch 12  step 30/60
+  epoch 12  step 40/60
+  epoch 12  step 50/60
+  epoch 12  step 60/60
+  epoch 12  train MSE 0.3241
+  held-out Spearman rho=-0.08539977308750583 p=0.7814777530405761
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Thrombin, Human  (train 63, test 10) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/63
+  epoch 01  step 20/63
+  epoch 01  step 30/63
+  epoch 01  step 40/63
+  epoch 01  step 50/63
+  epoch 01  step 60/63
+  epoch 01  train MSE 1.1838
+  epoch 02  step 10/63
+  epoch 02  step 20/63
+  epoch 02  step 30/63
+  epoch 02  step 40/63
+  epoch 02  step 50/63
+  epoch 02  step 60/63
+  epoch 02  train MSE 0.9493
+  epoch 03  step 10/63
+  epoch 03  step 20/63
+  epoch 03  step 30/63
+  epoch 03  step 40/63
+  epoch 03  step 50/63
+  epoch 03  step 60/63
+  epoch 03  train MSE 0.7267
+  epoch 04  step 10/63
+  epoch 04  step 20/63
+  epoch 04  step 30/63
+  epoch 04  step 40/63
+  epoch 04  step 50/63
+  epoch 04  step 60/63
+  epoch 04  train MSE 0.7922
+  epoch 05  step 10/63
+  epoch 05  step 20/63
+  epoch 05  step 30/63
+  epoch 05  step 40/63
+  epoch 05  step 50/63
+  epoch 05  step 60/63
+  epoch 05  train MSE 0.8398
+  epoch 06  step 10/63
+  epoch 06  step 20/63
+  epoch 06  step 30/63
+  epoch 06  step 40/63
+  epoch 06  step 50/63
+  epoch 06  step 60/63
+  epoch 06  train MSE 0.4932
+  epoch 07  step 10/63
+  epoch 07  step 20/63
+  epoch 07  step 30/63
+  epoch 07  step 40/63
+  epoch 07  step 50/63
+  epoch 07  step 60/63
+  epoch 07  train MSE 0.6032
+  epoch 08  step 10/63
+  epoch 08  step 20/63
+  epoch 08  step 30/63
+  epoch 08  step 40/63
+  epoch 08  step 50/63
+  epoch 08  step 60/63
+  epoch 08  train MSE 0.5657
+  epoch 09  step 10/63
+  epoch 09  step 20/63
+  epoch 09  step 30/63
+  epoch 09  step 40/63
+  epoch 09  step 50/63
+  epoch 09  step 60/63
+  epoch 09  train MSE 0.4646
+  epoch 10  step 10/63
+  epoch 10  step 20/63
+  epoch 10  step 30/63
+  epoch 10  step 40/63
+  epoch 10  step 50/63
+  epoch 10  step 60/63
+  epoch 10  train MSE 0.4763
+  epoch 11  step 10/63
+  epoch 11  step 20/63
+  epoch 11  step 30/63
+  epoch 11  step 40/63
+  epoch 11  step 50/63
+  epoch 11  step 60/63
+  epoch 11  train MSE 0.6292
+  epoch 12  step 10/63
+  epoch 12  step 20/63
+  epoch 12  step 30/63
+  epoch 12  step 40/63
+  epoch 12  step 50/63
+  epoch 12  step 60/63
+  epoch 12  train MSE 0.5593
+  held-out Spearman rho=-0.18237166310401937 p=0.6140677514955037
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+=== Hold out: Vascular Endothelial Growth Factor (VEGF)  (train 61, test 12) ===
+  trainable tensors: 518  params: 8,741,896
+  epoch 01  step 10/61
+  epoch 01  step 20/61
+  epoch 01  step 30/61
+  epoch 01  step 40/61
+  epoch 01  step 50/61
+  epoch 01  step 60/61
+  epoch 01  train MSE 1.3936
+  epoch 02  step 10/61
+  epoch 02  step 20/61
+  epoch 02  step 30/61
+  epoch 02  step 40/61
+  epoch 02  step 50/61
+  epoch 02  step 60/61
+  epoch 02  train MSE 1.0279
+  epoch 03  step 10/61
+  epoch 03  step 20/61
+  epoch 03  step 30/61
+  epoch 03  step 40/61
+  epoch 03  step 50/61
+  epoch 03  step 60/61
+  epoch 03  train MSE 0.7562
+  epoch 04  step 10/61
+  epoch 04  step 20/61
+  epoch 04  step 30/61
+  epoch 04  step 40/61
+  epoch 04  step 50/61
+  epoch 04  step 60/61
+  epoch 04  train MSE 0.9446
+  epoch 05  step 10/61
+  epoch 05  step 20/61
+  epoch 05  step 30/61
+  epoch 05  step 40/61
+  epoch 05  step 50/61
+  epoch 05  step 60/61
+  epoch 05  train MSE 0.9086
+  epoch 06  step 10/61
+  epoch 06  step 20/61
+  epoch 06  step 30/61
+  epoch 06  step 40/61
+  epoch 06  step 50/61
+  epoch 06  step 60/61
+  epoch 06  train MSE 0.8084
+  epoch 07  step 10/61
+  epoch 07  step 20/61
+  epoch 07  step 30/61
+  epoch 07  step 40/61
+  epoch 07  step 50/61
+  epoch 07  step 60/61
+  epoch 07  train MSE 1.0908
+  epoch 08  step 10/61
+  epoch 08  step 20/61
+  epoch 08  step 30/61
+  epoch 08  step 40/61
+  epoch 08  step 50/61
+  epoch 08  step 60/61
+  epoch 08  train MSE 0.9084
+  epoch 09  step 10/61
+  epoch 09  step 20/61
+  epoch 09  step 30/61
+  epoch 09  step 40/61
+  epoch 09  step 50/61
+  epoch 09  step 60/61
+  epoch 09  train MSE 0.7299
+  epoch 10  step 10/61
+  epoch 10  step 20/61
+  epoch 10  step 30/61
+  epoch 10  step 40/61
+  epoch 10  step 50/61
+  epoch 10  step 60/61
+  epoch 10  train MSE 0.7755
+  epoch 11  step 10/61
+  epoch 11  step 20/61
+  epoch 11  step 30/61
+  epoch 11  step 40/61
+  epoch 11  step 50/61
+  epoch 11  step 60/61
+  epoch 11  train MSE 0.7025
+  epoch 12  step 10/61
+  epoch 12  step 20/61
+  epoch 12  step 30/61
+  epoch 12  step 40/61
+  epoch 12  step 50/61
+  epoch 12  step 60/61
+  epoch 12  train MSE 0.5801
+  held-out Spearman rho=-0.28021058733533855 p=0.3776981560766677
+  saved checkpoint /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.json
+
+Wrote /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/report/af3_boltz_affinity_finetune_lot.csv
+{
+  "folds": [
+    {
+      "target": "Abrin toxin, Abrus precatorius (A.precatorius)",
+      "n": 8,
+      "rho": -0.7857142857142858,
+      "p": 0.020815127253525276
+    },
+    {
+      "target": "Autonomously replicating sequence\u2010binding factor 1 (ABF1) protein",
+      "n": 8,
+      "rho": -0.2380952380952381,
+      "p": 0.5701563208157683
+    },
+    {
+      "target": "Basic fibroblast growth factor (bFGF)",
+      "n": 10,
+      "rho": -0.24316221747202585,
+      "p": 0.49843371099777956
+    },
+    {
+      "target": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev)",
+      "n": 12,
+      "rho": null,
+      "p": null
+    },
+    {
+      "target": "Immunoglobulin E (IgE), Human",
+      "n": 13,
+      "rho": -0.08539977308750583,
+      "p": 0.7814777530405761
+    },
+    {
+      "target": "Thrombin, Human",
+      "n": 10,
+      "rho": -0.18237166310401937,
+      "p": 0.6140677514955037
+    },
+    {
+      "target": "Vascular Endothelial Growth Factor (VEGF)",
+      "n": 12,
+      "rho": -0.28021058733533855,
+      "p": 0.3776981560766677
+    }
+  ],
+  "mean_heldout_rho": -0.3024922941347356,
+  "epochs": 12,
+  "lr": 0.0001,
+  "full_module": true
+}

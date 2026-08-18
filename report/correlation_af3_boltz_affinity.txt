@@ -1,0 +1,25 @@
+Boltz affinity head on AF3 coordinates (zero-shot) — predicted score vs experimental Kd
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Predicted column: affinity_pred_value (lower = tighter binding).
+Experimental: kd_nm (lower = tighter binding).
+Because both scores are lower-is-better, AGREEMENT is a POSITIVE Spearman rho.
+
+Overall (n=73, all 7 targets pooled):
+  Spearman rho = -0.0935
+  p-value      = 0.4313
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8    0.3333      0.4198
+Autonomously replicating sequence‐binding factor 1 (...   8    0.0238      0.9554
+Basic fibroblast growth factor (bFGF)                    10    0.3891      0.2665
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12    (Kd ties, skipped)
+Immunoglobulin E (IgE), Human                            13   -0.1846      0.5461
+Thrombin, Human                                          10    0.2310      0.5208
+Vascular Endothelial Growth Factor (VEGF)                12    0.1821       0.571
+
+Mean per-target rho (n_targets=6, HIV-Rev-style ties excluded):
+  0.1625

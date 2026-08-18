@@ -1,0 +1,16 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: TATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGR
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P00734_light_chain.a3m
+- protein:
+    id: B
+    sequence: IVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P00734_heavy_chain.a3m
+- dna:
+    id: C
+    sequence: CAGTCCGTGGTAGGGCAGGTTGGGGTGACTTCGTGGAA
+properties:
+- affinity:
+    binder: C

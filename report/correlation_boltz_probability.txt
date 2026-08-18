@@ -1,0 +1,25 @@
+Boltz-2 binder probability (cached MSAs) — predicted score vs experimental Kd
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Predicted column: affinity_probability_binary (higher = tighter / more confident).
+Experimental: kd_nm (lower = tighter binding).
+Because the predicted score is higher-is-better, AGREEMENT with experiment is a NEGATIVE Spearman rho (high confidence with low Kd).
+
+Overall (n=73, all 7 targets pooled):
+  Spearman rho = -0.2591
+  p-value      = 0.02689
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8    0.0000           1
+Autonomously replicating sequence‐binding factor 1 (...   8   -0.0952      0.8225
+Basic fibroblast growth factor (bFGF)                    10    0.5410      0.1063
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12    (Kd ties, skipped)
+Immunoglobulin E (IgE), Human                            13    0.3223      0.2828
+Thrombin, Human                                          10    0.1216      0.7379
+Vascular Endothelial Growth Factor (VEGF)                12   -0.5499     0.06398
+
+Mean per-target rho (n_targets=6, HIV-Rev-style ties excluded):
+  0.0566
