@@ -73,7 +73,8 @@ def run_analysis(
     pred = df[pred_col].astype(float)
     kd = df["kd_nm"].astype(float)
     rho, pval = spearmanr(pred, kd)
-    lines.append(f"Overall (n={len(df)}, all 7 targets pooled):")
+    n_targets = df["target"].nunique() if "target" in df.columns else "?"
+    lines.append(f"Overall (n={len(df)}, {n_targets} targets pooled):")
     lines.append(f"  Spearman rho = {rho:.4f}")
     lines.append(f"  p-value      = {pval:.4g}")
     lines.append("")
@@ -92,10 +93,20 @@ def run_analysis(
                 f"{target:<55}{len(group):>4}{'(Kd ties, skipped)':>22}"
             )
             continue
+        if group[pred_col].nunique(dropna=True) < 2:
+            lines.append(
+                f"{target:<55}{len(group):>4}{'(score ties, skipped)':>22}"
+            )
+            continue
         t_rho, t_pval = spearmanr(
             group[pred_col].astype(float), group["kd_nm"].astype(float)
         )
-        per_target.append(t_rho)
+        if pd.isna(t_rho):
+            lines.append(
+                f"{target:<55}{len(group):>4}{'(undefined, skipped)':>22}"
+            )
+            continue
+        per_target.append(float(t_rho))
         short_target = (target[:52] + "...") if len(target) > 55 else target
         lines.append(
             f"{short_target:<55}{len(group):>4}{t_rho:>10.4f}{t_pval:>12.4g}"
@@ -105,7 +116,7 @@ def run_analysis(
         lines.append("")
         lines.append(
             f"Mean per-target rho (n_targets={len(per_target)}, "
-            "HIV-Rev-style ties excluded):"
+            "Kd ties and constant scores excluded):"
         )
         lines.append(f"  {sum(per_target) / len(per_target):.4f}")
 

@@ -15,6 +15,7 @@ Run from the case-study repo, Boltz venv active.
 from __future__ import annotations
 
 import argparse
+import csv
 import re
 import sys
 from pathlib import Path
@@ -23,6 +24,11 @@ import numpy as np
 
 
 PROJECT_ROOT = Path("/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study")
+
+
+def safe_filename(text: str) -> str:
+    text = re.sub(r"[^\w.-]+", "_", text.strip())
+    return text.strip("_") or "aptamer"
 
 
 def norm_atom(name: str) -> str:
@@ -154,30 +160,75 @@ def choose_res_offset(residues, chains, af3_resnames: dict[tuple[str, int], str]
     return best_off
 
 
-def inject_one(job_name: str, project_root: Path, dry_run: bool) -> None:
-    boltz_npz = (
-        project_root
-        / "results"
-        / "boltz_msa"
-        / f"boltz_results_{job_name}"
-        / "predictions"
-        / job_name
-        / f"pre_affinity_{job_name}.npz"
-    )
-    af3_cif = project_root / "results" / "af3_msa" / job_name / f"{job_name}_model.cif"
-    out_dir = (
+def find_pre_affinity(project_root: Path, job_name: str) -> Path | None:
+    for folder in ("boltz_msa_v2", "boltz_msa"):
+        path = (
+            project_root
+            / "results"
+            / folder
+            / f"boltz_results_{job_name}"
+            / "predictions"
+            / job_name
+            / f"pre_affinity_{job_name}.npz"
+        )
+        if path.is_file():
+            return path
+    return None
+
+
+def find_af3_cif(project_root: Path, job_name: str) -> Path | None:
+    for folder in ("af3_msa_v2", "af3_msa"):
+        job_dir = project_root / "results" / folder / job_name
+        named = job_dir / f"{job_name}_model.cif"
+        if named.is_file():
+            return named
+        if job_dir.is_dir():
+            matches = sorted(job_dir.glob("*model.cif"))
+            if matches:
+                return matches[0]
+    return None
+
+
+def job_names_from_csv(csv_path: Path) -> list[str]:
+    jobs = []
+    with csv_path.open(newline="") as f:
+        for row in csv.DictReader(f):
+            serial = str(row["Serial Number"])
+            name = str(row["Name of Aptamer"])
+            jobs.append(f"{serial}_{safe_filename(name)}")
+    return jobs
+
+
+def affinity_json_exists(project_root: Path, job_name: str, output_root: Path) -> bool:
+    candidates = [
+        output_root / "predictions" / job_name / f"affinity_{job_name}.json",
         project_root
         / "results"
         / "af3_boltz_affinity"
         / "predictions"
         / job_name
-    )
+        / f"affinity_{job_name}.json",
+    ]
+    return any(p.is_file() for p in candidates)
+
+
+def inject_one(
+    job_name: str,
+    project_root: Path,
+    dry_run: bool,
+    output_root: Path,
+) -> bool:
+    boltz_npz = find_pre_affinity(project_root, job_name)
+    af3_cif = find_af3_cif(project_root, job_name)
+    out_dir = output_root / "predictions" / job_name
     out_npz = out_dir / f"pre_affinity_{job_name}.npz"
 
-    if not boltz_npz.exists():
-        sys.exit(f"Missing Boltz pre_affinity file: {boltz_npz}")
-    if not af3_cif.exists():
-        sys.exit(f"Missing AF3 CIF: {af3_cif}")
+    if boltz_npz is None:
+        print(f"SKIP {job_name}: missing Boltz pre_affinity npz")
+        return False
+    if af3_cif is None:
+        print(f"SKIP {job_name}: missing AF3 CIF")
+        return False
 
     data = dict(np.load(boltz_npz, allow_pickle=True))
     atoms = data["atoms"]
@@ -241,10 +292,10 @@ def inject_one(job_name: str, project_root: Path, dry_run: bool) -> None:
     if missing_examples:
         print(f"  unmatched heavy examples (chain, res, atom, boltz_resname): {missing_examples}")
     if frac < 0.9:
-        sys.exit(
-            f"Heavy-atom match rate {frac:.1%} is too low to trust. "
-            "Inspect chain names / residue numbering before continuing."
+        print(
+            f"FAIL {job_name}: heavy-atom match {frac:.1%} is too low to trust"
         )
+        return False
 
     atoms = atoms.copy()
     atoms["coords"] = new_coords
@@ -257,11 +308,12 @@ def inject_one(job_name: str, project_root: Path, dry_run: bool) -> None:
 
     if dry_run:
         print("  dry-run: not writing")
-        return
+        return True
 
     out_dir.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(out_npz, **data)
     print(f"  wrote {out_npz}")
+    return True
 
 
 def main() -> None:
@@ -270,20 +322,62 @@ def main() -> None:
     parser.add_argument("--job", type=str, default="", help="One job name, e.g. 10000008_5A")
     parser.add_argument("--limit", type=int, default=0, help="Only process this many jobs (0 = all).")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--v2",
+        action="store_true",
+        help="193-aptamer set: search v2+original folders, write to af3_boltz_affinity_v2.",
+    )
+    parser.add_argument(
+        "--output-root",
+        type=Path,
+        default=None,
+        help="Parent of predictions/ (default: results/af3_boltz_affinity or _v2 with --v2).",
+    )
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        default=None,
+        help="Aptamer CSV used to list jobs (default v2 CSV when --v2).",
+    )
     args = parser.parse_args()
 
-    af3_root = args.project_root / "results" / "af3_msa"
+    output_root = args.output_root
+    if output_root is None:
+        name = "af3_boltz_affinity_v2" if args.v2 else "af3_boltz_affinity"
+        output_root = args.project_root / "results" / name
+
     if args.job:
         jobs = [args.job]
+    elif args.v2 or args.csv:
+        csv_path = args.csv or (args.project_root / "data" / "aptamer_subset_v2.csv")
+        if not csv_path.exists():
+            sys.exit(f"Missing CSV: {csv_path}")
+        jobs = job_names_from_csv(csv_path)
     else:
-        jobs = sorted(p.name for p in af3_root.iterdir() if p.is_dir() and (p / f"{p.name}_model.cif").exists())
+        af3_root = args.project_root / "results" / "af3_msa"
+        jobs = sorted(
+            p.name
+            for p in af3_root.iterdir()
+            if p.is_dir() and (p / f"{p.name}_model.cif").exists()
+        )
 
     if args.limit:
         jobs = jobs[: args.limit]
 
-    print(f"Injecting AF3 coords for {len(jobs)} job(s)")
+    print(f"Injecting AF3 coords for {len(jobs)} job(s) -> {output_root}")
+    ok = 0
+    skipped = 0
+    failed = 0
     for job in jobs:
-        inject_one(job, args.project_root, dry_run=args.dry_run)
+        if args.v2 and affinity_json_exists(args.project_root, job, output_root):
+            print(f"[SKIP] {job} (affinity json already exists)")
+            skipped += 1
+            continue
+        if inject_one(job, args.project_root, args.dry_run, output_root):
+            ok += 1
+        else:
+            failed += 1
+    print(f"Inject summary: wrote/ok={ok} skip={skipped} fail={failed}")
 
 
 if __name__ == "__main__":

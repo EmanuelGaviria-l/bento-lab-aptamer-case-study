@@ -1,0 +1,194 @@
+serial,aptamer_name,target,nucleic_type,kd_nm,ranking_score,ptm,iptm,has_cif,job_dir
+10000628,Ab6,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,28,0.8373507570341765,0.88,0.82,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000628_Ab6
+10000625,Ab3,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,50,0.8301906098908198,0.87,0.81,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000625_Ab3
+10000629,Ab7,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,67,0.8265237620770156,0.87,0.8,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000629_Ab7
+10000623,Ab1,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,76,0.8252828543024047,0.87,0.8,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000623_Ab1
+10000627,Ab5,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,81,0.8066302438104587,0.86,0.78,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000627_Ab5
+10000624,Ab2,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,89,0.8274400072373145,0.87,0.81,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000624_Ab2
+10000626,Ab4,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,104,0.808533713077402,0.86,0.78,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000626_Ab4
+10000630,Ab8,"Abrin toxin, Abrus precatorius (A.precatorius)",ssDNA,130,0.7940562928411666,0.85,0.77,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000630_Ab8
+10000559,Apt- 83,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,0.006,0.3860346780180303,0.65,0.29,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000559_Apt-_83
+10000560,Apt-78,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,0.44,0.38790227584979264,0.66,0.29,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000560_Apt-78
+10000561,Apt-77,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,2.1,0.4068669311696985,0.69,0.3,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000561_Apt-77
+10000562,Apt-106,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,2.4,0.3504551648970811,0.66,0.23,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000562_Apt-106
+10000563,Apt-74,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,4.1,0.43143186115330967,0.68,0.34,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000563_Apt-74
+10000557,not reported,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,4.7,0.39793803211567585,0.67,0.28,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000557_not_reported
+10000564,Apt-58,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,10.8,0.44980836852082373,0.67,0.36,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000564_Apt-58
+10000558,not reported,Autonomously replicating sequence‐binding factor 1 (ABF1) protein,ssDNA,250.8,0.4350943588956286,0.68,0.33,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000558_not_reported
+10000016,22B,Basic fibroblast growth factor (bFGF),ssRNA,0.13,0.3313616042990123,0.59,0.22,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000016_22B
+10000014,26At,Basic fibroblast growth factor (bFGF),ssRNA,0.19,0.47795326881907496,0.69,0.38,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000014_26At
+10000015,26A,Basic fibroblast growth factor (bFGF),ssRNA,0.19,0.2168606184208573,0.56,0.08,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000015_26A
+10000017,28B,Basic fibroblast growth factor (bFGF),ssRNA,0.32,0.22296213525969222,0.56,0.08,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000017_28B
+10000013,12A,Basic fibroblast growth factor (bFGF),ssRNA,0.51,0.22176945747346627,0.55,0.11,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000013_12A
+10000011,14A,Basic fibroblast growth factor (bFGF),ssRNA,3,0.3979241414114538,0.64,0.3,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000011_14A
+10000010,13A,Basic fibroblast growth factor (bFGF),ssRNA,3.2,0.3859585676724446,0.63,0.28,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000010_13A
+10000009,7A,Basic fibroblast growth factor (bFGF),ssRNA,5,0.2112255769279669,0.55,0.08,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000009_7A
+10000012,21A,Basic fibroblast growth factor (bFGF),ssRNA,8.1,0.2670850207810574,0.58,0.16,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000012_21A
+10000008,5A,Basic fibroblast growth factor (bFGF),ssRNA,23,0.2501939100390663,0.58,0.16,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000008_5A
+10001080,C-ap12,C-terminal region Recombinant human connective tissue growth factor (rhCTGF),ssDNA,3.893,0.3608456816538397,0.67,0.19,True,results/af3_msa_v2/10001080_C-ap12
+10001082,C-ap15,C-terminal region Recombinant human connective tissue growth factor (rhCTGF),ssDNA,5.234,0.3426111240878314,0.71,0.24,True,results/af3_msa_v2/10001082_C-ap15
+10001081,C-ap14,C-terminal region Recombinant human connective tissue growth factor (rhCTGF),ssDNA,5.561,0.4135634169914281,0.68,0.26,True,results/af3_msa_v2/10001081_C-ap14
+10001079,C-ap11,C-terminal region Recombinant human connective tissue growth factor (rhCTGF),ssDNA,7.376,0.42455452158453677,0.67,0.26,True,results/af3_msa_v2/10001079_C-ap11
+10001083,C-ap18,C-terminal region Recombinant human connective tissue growth factor (rhCTGF),ssDNA,9.734,0.4308217018881233,0.7,0.29,True,results/af3_msa_v2/10001083_C-ap18
+10000453,F1-1,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,2,0.19822070390838592,0.39,0.06,True,results/af3_msa_v2/10000453_F1-1
+10000455,F3-1,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,4,0.24271881207290663,0.38,0.1,True,results/af3_msa_v2/10000455_F3-1
+10000456,F4-1,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,7,0.22615584530801913,0.42,0.09,True,results/af3_msa_v2/10000456_F4-1
+10000458,F5-1,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,10,0.21994726741689324,0.4,0.08,True,results/af3_msa_v2/10000458_F5-1
+10000454,F2-1,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,14,0.21519195609606728,0.41,0.06,True,results/af3_msa_v2/10000454_F2-1
+10000457,F4-2,C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),ssRNA,294,0.19234508570357584,0.39,0.05,True,results/af3_msa_v2/10000457_F4-2
+10000172,Trnc-21,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,0.009,0.3125463343990807,0.78,0.19,True,results/af3_msa_v2/10000172_Trnc-21
+10000174,D.21-D.30,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,0.01,0.5373772518019404,0.77,0.48,True,results/af3_msa_v2/10000174_D.21-D.30
+10000134,TQ30,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,0.04,0.2430311144185353,0.75,0.11,True,results/af3_msa_v2/10000134_TQ30
+10000173,D.30-D.30,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,0.047,0.5582317627594946,0.8,0.49,True,results/af3_msa_v2/10000173_D.30-D.30
+10000170,Trnc.A-30,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,0.6,0.26578986026839035,0.78,0.14,True,results/af3_msa_v2/10000170_Trnc.A-30
+10000171,Trnc.2-30,"DNA polymerase (Taq pol), Thermus acquaticus",ssDNA,3.1,0.5375131613025659,0.8,0.47,True,results/af3_msa_v2/10000171_Trnc.2-30
+10001141,ER_Apt1,Estrogen receptor alpha (ERα),ssDNA,11.5,0.41211521674700896,0.45,0.13,True,results/af3_msa_v2/10001141_ER_Apt1
+10000981,AptER-1,Estrogen receptor alpha (ERα),ssRNA,16,0.6525672366583704,0.45,0.41,True,results/af3_msa_v2/10000981_AptER-1
+10000982,AptER-2,Estrogen receptor alpha (ERα),ssRNA,21,0.4669566463831055,0.44,0.19,True,results/af3_msa_v2/10000982_AptER-2
+10000983,AptER-3,Estrogen receptor alpha (ERα),ssRNA,30,0.5537578061182894,0.43,0.31,True,results/af3_msa_v2/10000983_AptER-3
+10001030,PR10.1-8A,HIV-1 aspartyl protease (PR),ssRNA,2.2,0.19300850919767776,0.47,0.07,True,results/af3_msa_v2/10001030_PR10.1-8A
+10001031,PR10.9-8N,HIV-1 aspartyl protease (PR),ssRNA,4.3,0.17563844399204326,0.47,0.04,True,results/af3_msa_v2/10001031_PR10.9-8N
+10001029,PR10.1-8E,HIV-1 aspartyl protease (PR),ssRNA,17,0.18617189398022094,0.47,0.06,True,results/af3_msa_v2/10001029_PR10.1-8E
+10001028,PR10.9,HIV-1 aspartyl protease (PR),ssRNA,93,0.17752905303708627,0.47,0.05,True,results/af3_msa_v2/10001028_PR10.9
+10001027,PR10.1,HIV-1 aspartyl protease (PR),ssRNA,115,0.1636186419686259,0.47,0.04,True,results/af3_msa_v2/10001027_PR10.1
+10000118,C8,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.5983986878214893,0.38,0.33,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000118_C8
+10000118,C18,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.6745655817327698,0.45,0.42,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000118_C18
+10000119,C17,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.6380500688010816,0.45,0.4,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000119_C17
+10000120,C5,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.5924953471178842,0.39,0.29,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000120_C5
+10000121,C1,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.47163879670331643,0.33,0.21,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000121_C1
+10000122,C9,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.7507284070187505,0.49,0.49,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000122_C9
+10000123,C15,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.4621463987364674,0.32,0.17,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000123_C15
+10000124,C24,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.5080988987561014,0.37,0.25,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000124_C24
+10000125,C33,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.6717975525098048,0.45,0.41,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000125_C33
+10000126,C34,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.6133319500857293,0.39,0.34,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000126_C34
+10000127,C37,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.48949206587064525,0.33,0.18,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000127_C37
+10000128,C52,Human immunodeficiency virus type 1 Rev (HIV-1 Rev),ssRNA,27.5,0.6225906517595542,0.42,0.34,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000128_C52
+10000131,D17.4,"Immunoglobulin E (IgE), Human",ssDNA,10,0.2482390793399945,0.52,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000131_D17.4
+10000508,4.4.12,"Immunoglobulin E (IgE), Human",ssDNA,23,0.24076736294395978,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000508_4.4.12
+10000523,4.4.27,"Immunoglobulin E (IgE), Human",ssDNA,23,0.23919241489346582,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000523_4.4.27
+10000516,4.4.20,"Immunoglobulin E (IgE), Human",ssDNA,25,0.23929242816094898,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000516_4.4.20
+10000535,Clone 4.6,"Immunoglobulin E (IgE), Human",ssDNA,27,0.24004649392284863,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000535_Clone_4.6
+10000498,4.4.2,"Immunoglobulin E (IgE), Human",ssDNA,30,0.2395288681139675,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000498_4.4.2
+10000506,4.4.10,"Immunoglobulin E (IgE), Human",ssDNA,33,0.24023277811287963,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000506_4.4.10
+10000537,Clone 4.15,"Immunoglobulin E (IgE), Human",ssDNA,33,0.24031464822575885,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000537_Clone_4.15
+10000534,Clone 2.22,"Immunoglobulin E (IgE), Human",ssDNA,37,0.24045253222212282,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000534_Clone_2.22
+10000512,4.4.16,"Immunoglobulin E (IgE), Human",ssDNA,39,0.24037491278855366,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000512_4.4.16
+10000533,Clone 2.15,"Immunoglobulin E (IgE), Human",ssDNA,44,0.24038868093749088,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000533_Clone_2.15
+10000536,Clone 4.10,"Immunoglobulin E (IgE), Human",ssDNA,73,0.23911730870330639,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000536_Clone_4.10
+10000532,Clone 2.11,"Immunoglobulin E (IgE), Human",ssDNA,84,0.23911546842491538,0.49,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000532_Clone_2.11
+10001093,anti-KpnI RNA Aptamer 20,KpnI isoschizomer Acc65I,ssRNA,11.6,0.26613036028174714,0.61,0.18,True,results/af3_msa_v2/10001093_anti-KpnI_RNA_Aptamer_20
+10001096,anti-KpnI RNA Aptamer 30,KpnI isoschizomer Acc65I,ssRNA,18.6,0.35488647495615117,0.61,0.29,True,results/af3_msa_v2/10001096_anti-KpnI_RNA_Aptamer_30
+10001094,anti-KpnI RNA Aptamer 24,KpnI isoschizomer Acc65I,ssRNA,28.7,0.25505861581437006,0.6,0.17,True,results/af3_msa_v2/10001094_anti-KpnI_RNA_Aptamer_24
+10001095,anti-KpnI RNA Aptamer 29,KpnI isoschizomer Acc65I,ssRNA,419,0.25801420813199144,0.6,0.17,True,results/af3_msa_v2/10001095_anti-KpnI_RNA_Aptamer_29
+10001376,LDH8r-2,"Lactate dehydrogenase (LDH), Human",ssDNA,10.2,0.21517001317439594,0.75,0.06,True,results/af3_msa_v2/10001376_LDH8r-2
+10001375,LDH7r-9,"Lactate dehydrogenase (LDH), Human",ssDNA,12,0.22031332858047745,0.76,0.06,True,results/af3_msa_v2/10001375_LDH7r-9
+10001377,LDH9r-1,"Lactate dehydrogenase (LDH), Human",ssDNA,19.3,0.2231079004126541,0.78,0.06,True,results/af3_msa_v2/10001377_LDH9r-1
+10001374,LDH7r-1,"Lactate dehydrogenase (LDH), Human",ssDNA,21.3,0.22364996530034606,0.78,0.06,True,results/af3_msa_v2/10001374_LDH7r-1
+10001302,Ylac8,Lactoferrin,ssDNA,1,0.2637752261974343,0.79,0.13,True,results/af3_msa_v2/10001302_Ylac8
+10001301,Ylac6,Lactoferrin,ssDNA,1.9,0.24369769171632003,0.79,0.11,True,results/af3_msa_v2/10001301_Ylac6
+10001298,Ylac1,Lactoferrin,ssDNA,2.2,0.2512395991408697,0.83,0.11,True,results/af3_msa_v2/10001298_Ylac1
+10001303,Ylac9,Lactoferrin,ssDNA,2.6,0.2787427897962157,0.78,0.15,True,results/af3_msa_v2/10001303_Ylac9
+10001299,Ylac4,Lactoferrin,ssDNA,4,0.24264610827696292,0.83,0.1,True,results/af3_msa_v2/10001299_Ylac4
+10001300,Ylac5,Lactoferrin,ssDNA,4.7,0.29516699506014493,0.83,0.16,True,results/af3_msa_v2/10001300_Ylac5
+10000867,Lep3,"Leptin protein, Human",ssDNA,320,0.1628472655503391,0.54,0.07,True,results/af3_msa_v2/10000867_Lep3
+10000866,Lep2,"Leptin protein, Human",ssDNA,410,0.15643244501092543,0.54,0.06,True,results/af3_msa_v2/10000866_Lep2
+10000865,Lep1,"Leptin protein, Human",ssDNA,870,0.15609571327740154,0.54,0.06,True,results/af3_msa_v2/10000865_Lep1
+10000868,Lep4,"Leptin protein, Human",ssDNA,1470,0.1597183026783412,0.54,0.06,True,results/af3_msa_v2/10000868_Lep4
+10001212,MAMA2,Mammaglobin A (MGB1),ssDNA,2,0.11896305750000329,0.47,0.03,True,results/af3_msa_v2/10001212_MAMA2
+10001215,MAMA12,Mammaglobin A (MGB1),ssDNA,8,0.1206163576567134,0.48,0.03,True,results/af3_msa_v2/10001215_MAMA12
+10001214,MAMA6,Mammaglobin A (MGB1),ssDNA,49,0.1160134136206738,0.47,0.03,True,results/af3_msa_v2/10001214_MAMA6
+10001213,MAMA5,Mammaglobin A (MGB1),ssDNA,54,0.11458156164006017,0.47,0.03,True,results/af3_msa_v2/10001213_MAMA5
+10001207,MAMB1,Mammaglobin B (MGB2),ssDNA,13,0.18182666673197753,0.44,0.03,True,results/af3_msa_v2/10001207_MAMB1
+10001210,MAMB12,Mammaglobin B (MGB2),ssDNA,19,0.16556591862667638,0.45,0.03,True,results/af3_msa_v2/10001210_MAMB12
+10001211,MAMB57,Mammaglobin B (MGB2),ssDNA,72,0.1883871392594914,0.45,0.03,True,results/af3_msa_v2/10001211_MAMB57
+10001209,MAMB8,Mammaglobin B (MGB2),ssDNA,78,0.1652083205346888,0.45,0.03,True,results/af3_msa_v2/10001209_MAMB8
+10001206,MAMB0,Mammaglobin B (MGB2),ssDNA,80,0.16617953843390998,0.45,0.03,True,results/af3_msa_v2/10001206_MAMB0
+10001208,MAMB4,Mammaglobin B (MGB2),ssDNA,105,0.15848544064955042,0.45,0.03,True,results/af3_msa_v2/10001208_MAMB4
+10000402,no.21,Mammalian translation initiation factor 4A (eIF4A),ssRNA,27,0.3115090231163029,0.55,0.22,True,results/af3_msa_v2/10000402_no.21
+10000400,#20,Mammalian translation initiation factor 4A (eIF4A),ssRNA,44,0.2736855618640466,0.55,0.17,True,results/af3_msa_v2/10000400_20
+10000401,#30,Mammalian translation initiation factor 4A (eIF4A),ssRNA,1000,0.37749393449616087,0.61,0.29,True,results/af3_msa_v2/10000401_30
+10000399,#1,Mammalian translation initiation factor 4A (eIF4A),ssRNA,3000,0.2389714762162728,0.51,0.14,True,results/af3_msa_v2/10000399_1
+10000398,#11,Mammalian translation initiation factor 4A (eIF4A),ssRNA,8000,0.2989872688615663,0.52,0.22,True,results/af3_msa_v2/10000398_11
+10000660,MUC1-5TR-1,Mucin 1 (MUC1) recombinant protein MUC1-5TR,ssDNA,47.3,0.16557476171703328,0.2,0.03,True,results/af3_msa_v2/10000660_MUC1-5TR-1
+10000663,MUC1-5TR-4,Mucin 1 (MUC1) recombinant protein MUC1-5TR,ssDNA,69,0.1455829436410823,0.21,0.03,True,results/af3_msa_v2/10000663_MUC1-5TR-4
+10000662,MUC1-5TR-3,Mucin 1 (MUC1) recombinant protein MUC1-5TR,ssDNA,83,0.15455377541275853,0.21,0.03,True,results/af3_msa_v2/10000662_MUC1-5TR-3
+10000661,MUC1-5TR-2,Mucin 1 (MUC1) recombinant protein MUC1-5TR,ssDNA,85.2,0.16178374927315575,0.2,0.03,True,results/af3_msa_v2/10000661_MUC1-5TR-2
+10000354,aptamer B.2,"Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein",ssRNA,1.5,0.39300931410221507,0.79,0.29,True,results/af3_msa_v2/10000354_aptamer_B.2
+10000355,aptamer B.3,"Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein",ssRNA,10,0.26745843235202393,0.74,0.15,True,results/af3_msa_v2/10000355_aptamer_B.3
+10000353,aptamer A.2,"Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein",ssRNA,16,0.26988940334096995,0.76,0.15,True,results/af3_msa_v2/10000353_aptamer_A.2
+10000356,aptamer B.2 SLII,"Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein",ssRNA,200,0.6891369488261087,0.91,0.63,True,results/af3_msa_v2/10000356_aptamer_B.2_SLII
+10000683,4C26,Proteinase K-resistant isoform (PrPSc),ssDNA,18,0.2640459281219629,0.49,0.07,True,results/af3_msa_v2/10000683_4C26
+10000681,4C17,Proteinase K-resistant isoform (PrPSc),ssDNA,19,0.3524771272289859,0.52,0.18,True,results/af3_msa_v2/10000681_4C17
+10000678,4C6,Proteinase K-resistant isoform (PrPSc),ssDNA,20,0.2580478943372111,0.47,0.05,True,results/af3_msa_v2/10000678_4C6
+10000677,4C5,Proteinase K-resistant isoform (PrPSc),ssDNA,30,0.24697105729453597,0.48,0.04,True,results/af3_msa_v2/10000677_4C5
+10000680,4C10,Proteinase K-resistant isoform (PrPSc),ssDNA,33,0.24146522173724988,0.49,0.04,True,results/af3_msa_v2/10000680_4C10
+10000676,4C3,Proteinase K-resistant isoform (PrPSc),ssDNA,48,0.25896751847840427,0.47,0.04,True,results/af3_msa_v2/10000676_4C3
+10000679,4C8,Proteinase K-resistant isoform (PrPSc),ssDNA,56,0.24256855946126732,0.47,0.04,True,results/af3_msa_v2/10000679_4C8
+10000682,4C20,Proteinase K-resistant isoform (PrPSc),ssDNA,79,0.2517035978947914,0.47,0.04,True,results/af3_msa_v2/10000682_4C20
+10000585,F47tr,RNA-dependent RNA polymerase (3Dpol),ssRNA,325,0.7849282100085979,0.95,0.74,True,results/af3_msa_v2/10000585_F47tr
+10000583,F47,RNA-dependent RNA polymerase (3Dpol),ssRNA,375,0.4185027537248225,0.84,0.31,True,results/af3_msa_v2/10000583_F47
+10000582,F38,RNA-dependent RNA polymerase (3Dpol),ssRNA,460,0.3604257827888194,0.84,0.24,True,results/af3_msa_v2/10000582_F38
+10000584,F52,RNA-dependent RNA polymerase (3Dpol),ssRNA,625,0.4597145487332299,0.84,0.37,True,results/af3_msa_v2/10000584_F52
+10000864,HA2b,Recombinant HA protein from swine IAV H3 cluster IV,ssDNA,3.7,0.22907228166952154,0.66,0.07,True,results/af3_msa_v2/10000864_HA2b
+10000861,HA68,Recombinant HA protein from swine IAV H3 cluster IV,ssDNA,7.1,0.22834166241032255,0.66,0.07,True,results/af3_msa_v2/10000861_HA68
+10000863,HA2a,Recombinant HA protein from swine IAV H3 cluster IV,ssDNA,16,0.22584348373101834,0.66,0.08,True,results/af3_msa_v2/10000863_HA2a
+10000862,HA7,Recombinant HA protein from swine IAV H3 cluster IV,ssDNA,22.3,0.22985886245962153,0.66,0.07,True,results/af3_msa_v2/10000862_HA7
+10000087,RT1,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,1,0.20986206973739718,0.68,0.09,True,results/af3_msa_v2/10000087_RT1
+10000094,RT26,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,1,0.29049340781523736,0.7,0.19,True,results/af3_msa_v2/10000094_RT26
+10000093,RT12,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,2,0.2964403608485924,0.71,0.19,True,results/af3_msa_v2/10000093_RT12
+10000088,RT1t49,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,4,0.2604704541158898,0.71,0.15,True,results/af3_msa_v2/10000088_RT1t49
+10000095,RT36,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,4,0.2717830548771244,0.71,0.16,True,results/af3_msa_v2/10000095_RT36
+10000090,RT6,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,5,0.2451690692486641,0.68,0.14,True,results/af3_msa_v2/10000090_RT6
+10000091,RT8,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,5,0.24484881789973545,0.69,0.13,True,results/af3_msa_v2/10000091_RT8
+10000089,RT4,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,8,0.29154475986286754,0.72,0.18,True,results/af3_msa_v2/10000089_RT4
+10000092,RT10,Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),ssDNA,11,0.3401755246945559,0.72,0.25,True,results/af3_msa_v2/10000092_RT10
+10001339,C7,"Rituximab, anti-CD20 lgG1 antibody",ssDNA,8.8,0.8183685051921316,0.65,0.84,True,results/af3_msa_v2/10001339_C7
+10001343,C10,"Rituximab, anti-CD20 lgG1 antibody",ssDNA,17.6,0.8138669700640391,0.65,0.84,True,results/af3_msa_v2/10001343_C10
+10001342,C5,"Rituximab, anti-CD20 lgG1 antibody",ssDNA,56.5,0.7005225711663069,0.61,0.71,True,results/af3_msa_v2/10001342_C5
+10001344,C57,"Rituximab, anti-CD20 lgG1 antibody",ssDNA,82.4,0.7022596614012968,0.6,0.71,True,results/af3_msa_v2/10001344_C57
+10001341,C4,"Rituximab, anti-CD20 lgG1 antibody",ssDNA,86.7,0.7031489785924876,0.6,0.71,True,results/af3_msa_v2/10001341_C4
+10001386,C7,SARS-CoV-2 Spike glycoprotein,ssDNA,89.41,0.2657596799791114,0.54,0.12,True,results/af3_msa_v2/10001386_C7
+10001400,C7,SARS-CoV-2 Spike glycoprotein,ssDNA,89.41,0.2635570915584075,0.54,0.12,True,results/af3_msa_v2/10001400_C7
+10001387,C9,SARS-CoV-2 Spike glycoprotein,ssDNA,231.9,0.2647631455688778,0.55,0.12,True,results/af3_msa_v2/10001387_C9
+10001401,C9,SARS-CoV-2 Spike glycoprotein,ssDNA,231.9,0.2589018462824229,0.54,0.12,True,results/af3_msa_v2/10001401_C9
+10001307,Tr-8,Soluble Interleukin 2 Receptor α (CD25),ssRNA,35.7,0.6833895436495292,0.56,0.45,True,results/af3_msa_v2/10001307_Tr-8
+10001308,Tr-11,Soluble Interleukin 2 Receptor α (CD25),ssRNA,46.1,0.4558655556832142,0.5,0.19,True,results/af3_msa_v2/10001308_Tr-11
+10001306,Tr-7,Soluble Interleukin 2 Receptor α (CD25),ssRNA,68.2,0.3952476670793341,0.49,0.11,True,results/af3_msa_v2/10001306_Tr-7
+10001305,Tr-6,Soluble Interleukin 2 Receptor α (CD25),ssRNA,96.9,0.38477448028241534,0.49,0.09,True,results/af3_msa_v2/10001305_Tr-6
+10001304,Tr-1,Soluble Interleukin 2 Receptor α (CD25),ssRNA,122,0.4117572854156514,0.49,0.12,True,results/af3_msa_v2/10001304_Tr-1
+10000578,II-31,Streptavidin,ssDNA,56.7,0.14389379825721352,0.55,0.04,True,results/af3_msa_v2/10000578_II-31
+10000580,IV-33,Streptavidin,ssDNA,59,0.22441780567619263,0.55,0.08,True,results/af3_msa_v2/10000580_IV-33
+10000579,III-30,Streptavidin,ssDNA,65.5,0.15631748414245306,0.56,0.06,True,results/af3_msa_v2/10000579_III-30
+10000768,"Aptamer 32, 34",Streptavidin,ssDNA,69.277,0.14639742449653825,0.58,0.04,True,results/af3_msa_v2/10000768_Aptamer_32_34
+10000577,I-26,Streptavidin,ssDNA,85.2,0.14311502172149707,0.55,0.04,True,results/af3_msa_v2/10000577_I-26
+10000769,Aptamer 29,Streptavidin,ssDNA,94.228,0.1508485404035072,0.58,0.04,True,results/af3_msa_v2/10000769_Aptamer_29
+10000770,Aptamer 30,Streptavidin,ssDNA,104.265,0.14834568053951214,0.58,0.04,True,results/af3_msa_v2/10000770_Aptamer_30
+10000146,30-8,"Thrombin, Human",ssDNA,0.4,0.8445566689133536,0.85,0.77,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000146_30-8
+10000155,60-18[38],"Thrombin, Human",ssDNA,0.5,0.9031480891004199,0.88,0.83,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000155_60-18_38
+10000156,60-18[29],"Thrombin, Human",ssDNA,0.5,0.912460470261335,0.89,0.84,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000156_60-18_29
+10000157,60-18[27],"Thrombin, Human",ssDNA,0.7,0.9340210960917971,0.9,0.86,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000157_60-18_27
+10000152,30-38[29],"Thrombin, Human",ssDNA,0.9,0.8159463162937498,0.86,0.73,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000152_30-38_29
+10000154,60-18,"Thrombin, Human",ssDNA,0.92,0.6580065296952321,0.68,0.57,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000154_60-18
+10000147,30-14,"Thrombin, Human",ssDNA,0.96,0.8181462506636119,0.84,0.74,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000147_30-14
+10000149,30-16[29],"Thrombin, Human",ssDNA,30,0.8480250929207461,0.86,0.77,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000149_30-16_29
+10000153,30-38[27],"Thrombin, Human",ssDNA,42,0.8623714083855983,0.87,0.78,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000153_30-38_27
+10000150,30-16[27],"Thrombin, Human",ssDNA,126,0.8573270298875975,0.86,0.78,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000150_30-16_27
+10000260,78,"Unr (Upstream of N-Ras) protein, Human",ssRNA,8,0.28087463476594976,0.38,0.18,True,results/af3_msa_v2/10000260_78
+10000255,88,"Unr (Upstream of N-Ras) protein, Human",ssRNA,10,0.29052544988935547,0.36,0.19,True,results/af3_msa_v2/10000255_88
+10000256,76,"Unr (Upstream of N-Ras) protein, Human",ssRNA,10,0.3390590953783676,0.37,0.25,True,results/af3_msa_v2/10000256_76
+10000259,77,"Unr (Upstream of N-Ras) protein, Human",ssRNA,10,0.30301985125002767,0.37,0.21,True,results/af3_msa_v2/10000259_77
+10000254,85,"Unr (Upstream of N-Ras) protein, Human",ssRNA,11,0.3263263986399115,0.37,0.24,True,results/af3_msa_v2/10000254_85
+10000258,58,"Unr (Upstream of N-Ras) protein, Human",ssRNA,13,0.3229703878495907,0.36,0.24,True,results/af3_msa_v2/10000258_58
+10000257,98,"Unr (Upstream of N-Ras) protein, Human",ssRNA,21,0.3723272891436221,0.38,0.29,True,results/af3_msa_v2/10000257_98
+10000084,126,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.14,0.5846283307326918,0.21,0.05,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000084_126
+10000082,40,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.19,0.5632133176605396,0.17,0.04,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000082_40
+10000073,100,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.2,0.5896818915169033,0.21,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000073_100
+10000074,100t,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.42,0.6025732841450577,0.16,0.09,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000074_100t
+10000075,44t,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.48,0.6355297687858448,0.19,0.12,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000075_44t
+10000081,12,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.48,0.5590426446092007,0.13,0.04,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000081_12
+10000083,84,Vascular Endothelial Growth Factor (VEGF),ssRNA,0.82,0.557571370073992,0.13,0.04,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000083_84
+10000076,12t,Vascular Endothelial Growth Factor (VEGF),ssRNA,1.1,0.5649255641138778,0.15,0.04,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000076_12t
+10000079,126t,Vascular Endothelial Growth Factor (VEGF),ssRNA,1.4,0.5842260085409918,0.16,0.07,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000079_126t
+10000080,44,Vascular Endothelial Growth Factor (VEGF),ssRNA,1.7,0.5726127679246164,0.15,0.05,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000080_44
+10000078,84t,Vascular Endothelial Growth Factor (VEGF),ssRNA,1.8,0.5686084945960932,0.15,0.05,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000078_84t
+10000077,40t,Vascular Endothelial Growth Factor (VEGF),ssRNA,20,0.5758059889778799,0.15,0.06,True,/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/results/af3_msa/10000077_40t

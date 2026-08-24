@@ -34,3 +34,4 @@ docs/af3_msa_batch_log.txt
 # Editor/system files
 .DS_Store
 *.swp
+results/af3_boltz_affinity_v2/

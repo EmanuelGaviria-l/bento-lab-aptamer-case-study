@@ -37,6 +37,40 @@ def safe_filename(text: str) -> str:
     return text.strip("_") or "aptamer"
 
 
+def load_affinity_json(path: Path) -> dict:
+    """Boltz sometimes writes a second JSON object in the same file."""
+    text = path.read_text().strip()
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        data, _ = json.JSONDecoder().raw_decode(text)
+    if not isinstance(data, dict):
+        raise ValueError(f"Affinity JSON is not an object: {path}")
+    return data
+
+
+def affinity_json_path(results_dir: Path, job_name: str, layout: str) -> Path:
+    if layout == "flat":
+        return results_dir / job_name / f"affinity_{job_name}.json"
+    return (
+        results_dir
+        / f"boltz_results_{job_name}"
+        / "predictions"
+        / job_name
+        / f"affinity_{job_name}.json"
+    )
+
+
+def find_affinity_json(
+    results_dirs: list[Path], job_name: str, layout: str
+) -> Path | None:
+    for results_dir in results_dirs:
+        path = affinity_json_path(results_dir, job_name, layout)
+        if path.is_file():
+            return path
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Rank Boltz-2 affinity predictions.")
     parser.add_argument(
@@ -52,6 +86,12 @@ def main() -> None:
         help="Output CSV path (default: report/boltz_affinity_ranking.csv)",
     )
     parser.add_argument(
+        "--csv",
+        type=Path,
+        default=None,
+        help="Aptamer CSV (default: data/aptamer_subset.csv).",
+    )
+    parser.add_argument(
         "--layout",
         choices=("boltz", "flat"),
         default="boltz",
@@ -63,7 +103,7 @@ def main() -> None:
     args = parser.parse_args()
 
     project_root = Path("/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study")
-    csv_path = project_root / "data" / "aptamer_subset.csv"
+    csv_path = args.csv or (project_root / "data" / "aptamer_subset.csv")
     results_dir = args.results_dir or (project_root / "results" / "boltz")
     output_path = args.output or (project_root / "report" / "boltz_affinity_ranking.csv")
 
@@ -71,6 +111,26 @@ def main() -> None:
         sys.exit(f"Missing file: {csv_path}")
     if not results_dir.exists():
         sys.exit(f"Missing results directory: {results_dir}")
+
+    results_dirs = [results_dir]
+    # v2 batch only stored the 120 new jobs; original 73 stay in boltz_msa/
+    orig_boltz = project_root / "results" / "boltz_msa"
+    if (
+        args.layout == "boltz"
+        and results_dir.resolve() != orig_boltz.resolve()
+        and results_dir.name == "boltz_msa_v2"
+        and orig_boltz.exists()
+    ):
+        results_dirs.append(orig_boltz)
+    orig_task6 = project_root / "results" / "af3_boltz_affinity" / "predictions"
+    if (
+        args.layout == "flat"
+        and results_dir.name == "predictions"
+        and results_dir.parent.name == "af3_boltz_affinity_v2"
+        and orig_task6.exists()
+        and orig_task6.resolve() != results_dir.resolve()
+    ):
+        results_dirs.append(orig_task6)
 
     df = pd.read_csv(csv_path)
 
@@ -82,23 +142,12 @@ def main() -> None:
         aptamer_name = str(row["Name of Aptamer"])
         job_name = f"{serial}_{safe_filename(aptamer_name)}"
 
-        if args.layout == "flat":
-            affinity_json = results_dir / job_name / f"affinity_{job_name}.json"
-        else:
-            affinity_json = (
-                results_dir
-                / f"boltz_results_{job_name}"
-                / "predictions"
-                / job_name
-                / f"affinity_{job_name}.json"
-            )
-
-        if not affinity_json.exists():
+        affinity_json = find_affinity_json(results_dirs, job_name, args.layout)
+        if affinity_json is None:
             missing.append(job_name)
             continue
 
-        with affinity_json.open() as f:
-            affinity_data = json.load(f)
+        affinity_data = load_affinity_json(affinity_json)
 
         rows.append(
             {

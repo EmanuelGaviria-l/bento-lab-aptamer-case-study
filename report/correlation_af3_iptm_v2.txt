@@ -1,0 +1,48 @@
+AF3 ipTM v2 (193 aptamers / 30 targets) — predicted score vs experimental Kd
+===========================================================================
+
+Metric: Spearman rank correlation coefficient (scipy.stats.spearmanr).
+Predicted column: iptm (higher = tighter / more confident).
+Experimental: kd_nm (lower = tighter binding).
+Because the predicted score is higher-is-better, AGREEMENT with experiment is a NEGATIVE Spearman rho (high confidence with low Kd).
+
+Overall (n=193, 30 targets pooled):
+  Spearman rho = -0.1009
+  p-value      = 0.1626
+
+Per-target breakdown:
+Target                                                    n       rho     p-value
+---------------------------------------------------------------------------------
+Abrin toxin, Abrus precatorius (A.precatorius)            8   -0.7880     0.02019
+Autonomously replicating sequence‐binding factor 1 (...   8    0.4431      0.2715
+Basic fibroblast growth factor (bFGF)                    10   -0.0864      0.8123
+C-terminal region Recombinant human connective tissu...   5    0.9747    0.004818
+C-terminal ribonuclease domain of colicin E3 (CRD of...   6   -0.5508      0.2574
+DNA polymerase (Taq pol), Thermus acquaticus              6    0.0286      0.9572
+Estrogen receptor alpha (ERα)                             4    0.4000         0.6
+HIV-1 aspartyl protease (PR)                              5   -0.5643      0.3217
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev)      12    (Kd ties, skipped)
+Immunoglobulin E (IgE), Human                            13 (score ties, skipped)
+KpnI isoschizomer Acc65I                                  4   -0.7379      0.2621
+Lactate dehydrogenase (LDH), Human                        4 (score ties, skipped)
+Lactoferrin                                               6    0.2319      0.6584
+Leptin protein, Human                                     4   -0.7746      0.2254
+Mammaglobin A (MGB1)                                      4 (score ties, skipped)
+Mammaglobin B (MGB2)                                      6 (score ties, skipped)
+Mammalian translation initiation factor 4A (eIF4A)        5   -0.1026      0.8696
+Mucin 1 (MUC1) recombinant protein MUC1-5TR               4 (score ties, skipped)
+Nonstructural 5B (NS5B) polymerase, hepatitis C viru...   4    0.3162      0.6838
+Proteinase K-resistant isoform (PrPSc)                    8   -0.8456     0.00817
+RNA-dependent RNA polymerase (3Dpol)                      4   -0.4000         0.6
+Recombinant HA protein from swine IAV H3 cluster IV       4    0.2582      0.7418
+Reverse Transcriptase of Type 1 Human Immunodeficien...   9    0.2076      0.5919
+Rituximab, anti-CD20 lgG1 antibody                        5   -0.8660     0.05767
+SARS-CoV-2 Spike glycoprotein                             4 (score ties, skipped)
+Soluble Interleukin 2 Receptor α (CD25)                   5   -0.7000      0.1881
+Streptavidin                                              7   -0.4900      0.2643
+Thrombin, Human                                          10   -0.2324      0.5182
+Unr (Upstream of N-Ras) protein, Human                    7    0.7667     0.04435
+Vascular Endothelial Growth Factor (VEGF)                12    0.0630      0.8459
+
+Mean per-target rho (n_targets=23, Kd ties and constant scores excluded):
+  -0.1499

@@ -81,27 +81,41 @@ def main() -> None:
     parser.add_argument("--project-root", type=Path, default=PROJECT_ROOT)
     parser.add_argument("--job", required=True, help="e.g. 10000008_5A")
     parser.add_argument("--no-kernels", action="store_true", default=True)
+    parser.add_argument(
+        "--v2",
+        action="store_true",
+        help="Read/write results/af3_boltz_affinity_v2 and find Boltz processed/ in v2 then original.",
+    )
+    parser.add_argument(
+        "--output-root",
+        type=Path,
+        default=None,
+        help="Parent of predictions/ (default: results/af3_boltz_affinity or _v2).",
+    )
     args = parser.parse_args()
 
     job = args.job
     project = args.project_root
-    injected = (
-        project
-        / "results"
-        / "af3_boltz_affinity"
-        / "predictions"
-        / job
-        / f"pre_affinity_{job}.npz"
-    )
+    out_dir = args.output_root
+    if out_dir is None:
+        name = "af3_boltz_affinity_v2" if args.v2 else "af3_boltz_affinity"
+        out_dir = project / "results" / name
+    injected = out_dir / "predictions" / job / f"pre_affinity_{job}.npz"
     if not injected.exists():
         sys.exit(
-            f"Missing {injected}\nRun: python3 scripts/task6/inject_af3_coords.py --job {job}"
+            f"Missing {injected}\nRun: python3 scripts/task6/inject_af3_coords.py "
+            f"{'--v2 ' if args.v2 else ''}--job {job}"
         )
 
-    boltz_run = project / "results" / "boltz_msa" / f"boltz_results_{job}"
+    boltz_run = None
+    for folder in ("boltz_msa_v2", "boltz_msa"):
+        candidate = project / "results" / folder / f"boltz_results_{job}"
+        if (candidate / "processed").exists():
+            boltz_run = candidate
+            break
+    if boltz_run is None:
+        sys.exit(f"Missing processed dir for {job} in boltz_msa_v2 or boltz_msa")
     processed = boltz_run / "processed"
-    if not processed.exists():
-        sys.exit(f"Missing processed dir: {processed}")
 
     cache = find_cache()
     aff_ckpt = cache / "boltz2_aff.ckpt"
@@ -120,7 +134,6 @@ def main() -> None:
     manifest = Manifest(records=filtered)
     print(f"Using manifest record id={manifest.records[0].id}")
 
-    out_dir = project / "results" / "af3_boltz_affinity"
     pred_dir = out_dir / "predictions"
     pred_dir.mkdir(parents=True, exist_ok=True)
 

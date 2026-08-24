@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Collect AlphaFold 3 confidence scores for all 73 aptamer complexes.
+Collect AlphaFold 3 confidence scores into a CSV.
 
 Reads:
-  data/aptamer_subset.csv
+  data/aptamer_subset.csv (or --csv)
   results/af3_msa/<job>/  (ranking_scores.csv + summary_confidences.json)
+  For v2, also results/af3_msa_v2/<job>/ for the 120 new folds.
 
 Writes:
-  report/af3_msa_scores.csv
+  report/af3_msa_scores.csv (or --output)
 
 ipTM is AF3's interface confidence (higher = AF3 is more sure the chains
 contact). That is NOT an affinity prediction like Boltz's affinity_pred_value.
@@ -90,6 +91,14 @@ def job_has_cif(job_dir: Path) -> bool:
     return any(job_dir.rglob("*.cif"))
 
 
+def find_job_dir(results_dirs: list[Path], job_name: str) -> Path | None:
+    for results_dir in results_dirs:
+        job_dir = results_dir / job_name
+        if job_dir.is_dir() and job_has_cif(job_dir):
+            return job_dir
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Collect AF3 scores into a CSV.")
     parser.add_argument(
@@ -104,6 +113,12 @@ def main() -> None:
         help="AF3 results directory (default: results/af3_msa)",
     )
     parser.add_argument(
+        "--csv",
+        type=Path,
+        default=None,
+        help="Aptamer CSV (default: data/aptamer_subset.csv).",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=None,
@@ -112,7 +127,7 @@ def main() -> None:
     args = parser.parse_args()
 
     project_root = args.project_root
-    csv_path = project_root / "data" / "aptamer_subset.csv"
+    csv_path = args.csv or (project_root / "data" / "aptamer_subset.csv")
     results_dir = args.results_dir or (project_root / "results" / "af3_msa")
     output_path = args.output or (project_root / "report" / "af3_msa_scores.csv")
 
@@ -120,6 +135,15 @@ def main() -> None:
         sys.exit(f"Missing file: {csv_path}")
     if not results_dir.exists():
         sys.exit(f"Missing results directory: {results_dir}")
+
+    results_dirs = [results_dir]
+    orig_af3 = project_root / "results" / "af3_msa"
+    if (
+        results_dir.resolve() != orig_af3.resolve()
+        and results_dir.name == "af3_msa_v2"
+        and orig_af3.exists()
+    ):
+        results_dirs.append(orig_af3)
 
     with csv_path.open(newline="") as f:
         aptamers = list(csv.DictReader(f))
@@ -131,9 +155,9 @@ def main() -> None:
         serial = str(aptamer["Serial Number"])
         name = str(aptamer["Name of Aptamer"])
         job_name = f"{serial}_{safe_filename(name)}"
-        job_dir = results_dir / job_name
+        job_dir = find_job_dir(results_dirs, job_name)
 
-        if not job_dir.is_dir() or not job_has_cif(job_dir):
+        if job_dir is None:
             missing.append(job_name)
             continue
 
