@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: DSGCKLLEDMVEKTINSDISIPEYKELLQEFIDSDAAAEAMGKFKQCFLNQSHRTLKNFGLMMHTVYDSIWCNMKSN
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/O75556_mature_mammaglobin_b.a3m
+- dna:
+    id: B
+    sequence: CATGCTTACCTATAGTGAACCCAACGTCGAACTGAATCCCGTGTCCTTTGAGAACTGACTCATAC
+properties:
+- affinity:
+    binder: B

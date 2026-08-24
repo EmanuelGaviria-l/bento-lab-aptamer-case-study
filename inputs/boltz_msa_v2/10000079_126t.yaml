@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: AASRGQGPEPAPGGGVEGVGARGVALKLFVQLLGCSRFGGAVVRAGEAEPSGAARSASSGREEPQPEEGEEEEEKEEERGPQWRLGARKPGSWTGEAAVCADSAPAARAPQALARASGRGGRVARRGAEESGPPHSPSRRGSASRAGPGRASETMNFLLSWVHWS
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P15692_vegf165_mature_signal_peptide_removed.a3m
+- rna:
+    id: B
+    sequence: GGAACGGUUCUGUGUGUGGACUAGCCGCGGCCGUU
+properties:
+- affinity:
+    binder: B

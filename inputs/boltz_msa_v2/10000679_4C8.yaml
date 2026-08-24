@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: QGGGTHNQWNKPSKPKTNLKHVAGAAAAGAVVGGLGGYMLGSAMSRPMIHFGNDWEDRYYRENMYRYPNQVYYRPVDQYSNQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKMMERVVEQMCVTQYQKESQAYYDGRRS
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P04925_mouse_prp_90_230.a3m
+- dna:
+    id: B
+    sequence: GGTATTGAGGGTCGCATCTTTCTGTCTTGTGTTACTTGTTTGTCCGGTTTCTTTTCTCCCCCCGATGGCTCTAACTCTCCTCT
+properties:
+- affinity:
+    binder: B

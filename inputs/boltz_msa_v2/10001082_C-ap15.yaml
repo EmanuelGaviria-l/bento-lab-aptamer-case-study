@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: DPTMIRANCLVQTTEWSACSKTCGMGISTRVTNDNASCRLEKQSRLCMVRPCEADLEENIKKGKKCIRTPKISKPIKFELSGCTSMKTYRAKFCGVCTDGRCCTPHRTTTLPVEFKCPDGEVMKKNMMFIKTCACHYNCPGDNDIFESLYYRKMYGDMA
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P29279_ctgf_c_terminal_region.a3m
+- dna:
+    id: B
+    sequence: CTGTATGCCTCCTGTACGAGCGGTGATTCTTGTCCA
+properties:
+- affinity:
+    binder: B

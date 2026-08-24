@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: GFKDYGHDYHPAPKTENIKGLGDLKPGIPKTPKQNGGGKRKRWTGDKGRKIYEWDSQHGELEGYRASDGQHLGSFDPKTGNQLKGPDPKRNIKKYL
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P00646_colicin_e3_rnase_domain.a3m
+- rna:
+    id: B
+    sequence: GGGAGAAUUCCGACCAGAAGCUUGACAUCUGUAAGUAAGAUUCUAUCUGCAAAGCGGUUAGGAGGGCUCGGACUCUGAUUGCCUCCCCGCACCCAUAUGUGCGUCUACAUGGAUCCUCA
+properties:
+- affinity:
+    binder: B

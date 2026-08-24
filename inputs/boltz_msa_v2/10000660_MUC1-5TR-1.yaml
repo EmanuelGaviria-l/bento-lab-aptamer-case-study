@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: APDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTS
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/MUC1_5TR_muc1_five_tandem_repeats.a3m
+- dna:
+    id: B
+    sequence: GGGAGACAAGAATAAACGCTCAAGAAGTGAAAATGACAGAACACAACATTCGACAGGAGGCTCACAACAGGC
+properties:
+- affinity:
+    binder: B

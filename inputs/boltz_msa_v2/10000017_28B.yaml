@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: PALPEDGGSGAFPPGHFKDPKRLYCKNGGFFLRIHPDGRVDGVREKSDPHIKLQLQAEERGVVSIKGVCANRYLAMKEDGRLLASKCVTDECFFFERLESNNYNTYRSRKYTSWYVALKRTGQYKLGSKTGPGQKAILFLPMSAKS
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P09038_fgf2_mature_secreted_form.a3m
+- rna:
+    id: B
+    sequence: GGGAGAUGCCUGUCGAGCAUGCUGAGGGUAACGUAUAGUCAAGACACCUCAAGUGUAGCUAAACAGCUUUGUCGACGGG
+properties:
+- affinity:
+    binder: B

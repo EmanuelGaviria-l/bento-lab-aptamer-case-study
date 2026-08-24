@@ -95,6 +95,37 @@ def slice_chains(full_sequence: str, chains: list[dict]) -> list[str]:
     return pieces
 
 
+def resolve_chain_sequences(
+    target_entry: dict,
+    full_seq_cache: dict[str, str],
+    cache_dir: Path,
+) -> list[str]:
+    """Use explicit chain sequences when present; otherwise UniProt ranges."""
+    pieces: list[str] = []
+    full: str | None = None
+    for chain in target_entry["chains"]:
+        if "sequence" in chain:
+            seq = "".join(str(chain["sequence"]).split())
+            if not seq:
+                raise ValueError(f"Empty sequence for {chain.get('label')}")
+            pieces.append(seq)
+            continue
+        uniprot_id = target_entry["uniprot"]
+        if full is None:
+            if uniprot_id not in full_seq_cache:
+                full_seq_cache[uniprot_id] = fetch_uniprot_sequence(uniprot_id, cache_dir)
+            full = full_seq_cache[uniprot_id]
+        start, end = chain["range"]
+        piece = full[start - 1:end]
+        if not piece:
+            raise ValueError(
+                f"Empty slice for range {chain['range']} "
+                f"(sequence length {len(full)}, label={chain.get('label')})"
+            )
+        pieces.append(piece)
+    return pieces
+
+
 def safe_filename(text: str) -> str:
     text = re.sub(r"[^\w.-]+", "_", text.strip())
     return text.strip("_") or "aptamer"
@@ -178,15 +209,35 @@ def main() -> None:
             "Writes to inputs/boltz_msa/."
         ),
     )
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        default=None,
+        help="Aptamer CSV (default: data/aptamer_subset.csv).",
+    )
+    parser.add_argument(
+        "--targets",
+        type=Path,
+        default=None,
+        help="targets YAML (default: data/targets.yaml).",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=None,
+        help="Override output directory.",
+    )
     args = parser.parse_args()
 
     if args.with_msa and args.msa_cache:
         sys.exit("Use either --with-msa OR --msa-cache, not both.")
 
     project_root = args.project_root
-    csv_path = project_root / "data" / "aptamer_subset.csv"
-    targets_path = project_root / "data" / "targets.yaml"
-    if args.msa_cache:
+    csv_path = args.csv or (project_root / "data" / "aptamer_subset.csv")
+    targets_path = args.targets or (project_root / "data" / "targets.yaml")
+    if args.output_dir is not None:
+        output_dir = args.output_dir
+    elif args.msa_cache:
         output_dir = project_root / "inputs" / "boltz_msa"
     elif args.with_msa:
         output_dir = project_root / "inputs" / "boltz_msa_remote"
@@ -225,10 +276,9 @@ def main() -> None:
         serial = str(row["Serial Number"])
         nucleic_type = row["Type of Nucleic Acid"]
 
-        if uniprot_id not in full_seq_cache:
-            full_seq_cache[uniprot_id] = fetch_uniprot_sequence(uniprot_id, cache_dir)
-
-        protein_sequences = slice_chains(full_seq_cache[uniprot_id], chains)
+        protein_sequences = resolve_chain_sequences(
+            target_entry, full_seq_cache, cache_dir
+        )
         aptamer_sequence = clean_aptamer_sequence(row["Aptamer Sequence"], nucleic_type)
 
         protein_msa_paths: list[str | None] = []

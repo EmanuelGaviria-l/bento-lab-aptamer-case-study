@@ -1,0 +1,278 @@
+# Protein sequences for aptamer_subset_v2.csv (original 7 + expansion).
+# Do not overwrite data/targets.yaml — that file is the first-submission baseline.
+#
+# Range convention: 1-indexed inclusive UniProt precursor coordinates.
+# A chain may instead give an explicit `sequence:` (Acc65I, HA, rituximab,
+# MUC1-5TR) when there is no suitable UniProt Swiss-Prot entry.
+
+targets:
+  - name: "Thrombin, Human"
+    uniprot: P00734
+    chains:
+      - range: [315, 363]
+        label: "light chain"
+      - range: [364, 622]
+        label: "heavy chain"
+    note: >
+      Mature alpha-thrombin light+heavy chains. First-submission baseline.
+
+  - name: "Vascular Endothelial Growth Factor (VEGF)"
+    uniprot: P15692
+    chains:
+      - range: [27, 191]
+        label: "VEGF165 (mature, signal peptide removed)"
+
+  - name: "Basic fibroblast growth factor (bFGF)"
+    uniprot: P09038
+    chains:
+      - range: [143, 288]
+        label: "FGF2, mature secreted form"
+
+  - name: "Human immunodeficiency virus type 1 Rev (HIV-1 Rev)"
+    uniprot: P04618
+    chains:
+      - range: [1, 116]
+        label: "Rev (full length, no processing)"
+
+  - name: "Immunoglobulin E (IgE), Human"
+    uniprot: P01877
+    chains:
+      - range: [1, 391]
+        label: "IgE heavy chain constant region"
+
+  - name: "Autonomously replicating sequence\u2010binding factor 1 (ABF1) protein"
+    uniprot: P39946
+    chains:
+      - range: [1, 494]
+        label: "ABF1 (full length, no signal/propeptide)"
+
+  - name: "Abrin toxin, Abrus precatorius (A.precatorius)"
+    uniprot: P11140
+    chains:
+      - range: [1, 251]
+        label: "A chain (catalytic)"
+      - range: [262, 528]
+        label: "B chain (lectin)"
+
+  - name: "Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT)"
+    uniprot: P04585
+    chains:
+      - range: [588, 1147]
+        label: "p66 RT"
+    note: >
+      Schneider 1995 used HIV-1 RT. UniProt P04585 (HXB2 Gag-Pol) p66 is
+      588-1147 (polymerase + RNase H). Native RT is a p66/p51 heterodimer;
+      only p66 is modeled here (p51 is 588-1027 of the same polyprotein) to
+      keep the complex closer to V100 16GB limits. Document as a
+      simplification.
+
+  - name: "Proteinase K-resistant isoform (PrPSc)"
+    uniprot: P04925
+    chains:
+      - range: [90, 230]
+        label: "mouse PrP 90-230"
+    note: >
+      Bibby 2008 selected against His6-moPrP90-231 (N-terminal 93 residues
+      replaced by a His tag). UniProt mouse PrP mature chain ends at 230
+      (GPI attachment 231-254), so 90-230 is the modeled globular core.
+      PrPSc is a conformational isoform of the same sequence; AF3/Boltz
+      cannot encode the scrapie fold.
+
+  - name: "Streptavidin"
+    uniprot: P22629
+    chains:
+      - range: [25, 183]
+        label: "mature streptavidin"
+    note: >
+      Streptomyces avidinii P22629; signal 1-24 removed. Stoltenburg 2005
+      FluMag-SELEX used commercial streptavidin.
+
+  - name: "Unr (Upstream of N-Ras) protein, Human"
+    uniprot: O75534
+    chains:
+      - range: [1, 858]
+        label: "CSDE1 / Unr full length"
+    note: >
+      Human CSDE1 (Unr), 858 aa, no signal peptide. Large for 16GB VRAM.
+
+  - name: "DNA polymerase (Taq pol), Thermus acquaticus"
+    uniprot: P19821
+    chains:
+      - range: [1, 832]
+        label: "Taq DNA polymerase I"
+    note: >
+      Full-length Taq pol I (P19821, 832 aa). Dataset spelling is
+      "acquaticus". Large for 16GB VRAM.
+
+  - name: "Lactoferrin"
+    uniprot: P24627
+    chains:
+      - range: [20, 708]
+        label: "bovine lactoferrin mature"
+    note: >
+      Yu 2018/2019 Talanta used lactoferrin with bovine milk proteins as
+      counter-targets, so this is bovine LTF (P24627), not human P02788.
+      Signal 1-19 removed.
+
+  - name: "Mammaglobin B (MGB2)"
+    uniprot: O75556
+    chains:
+      - range: [19, 95]
+        label: "mature mammaglobin-B"
+    note: >
+      SCGB2A1 / MGB2. Hassan 2017. Signal 1-18 removed. Not Q96QR1
+      (that accession is SCGB3A1 / HIN-1).
+
+  - name: "C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)"
+    uniprot: P00646
+    chains:
+      - range: [456, 551]
+        label: "colicin E3 RNase domain"
+    note: >
+      Hirao 2004 selected against the C-terminal RNase domain. SCOP/PDB
+      1E44: residues 456-551 of colicin E3.
+
+  - name: "HIV-1 aspartyl protease (PR)"
+    uniprot: P04585
+    chains:
+      - range: [489, 587]
+        label: "HIV-1 protease"
+    note: >
+      Duclair 2015. Mature PR is 99 aa from HXB2 Gag-Pol (P04585 489-587).
+      Native enzyme is a homodimer; one chain is modeled.
+
+  - name: "Mammalian translation initiation factor 4A (eIF4A)"
+    uniprot: P60842
+    chains:
+      - range: [1, 406]
+        label: "eIF4A1 full length"
+    note: >
+      Oguro 2003 used mammalian eIF4A. Human eIF4A1 (P60842) is used;
+      mouse P60843 differs by a few residues.
+
+  - name: "Soluble Interleukin 2 Receptor \u03b1 (CD25)"
+    uniprot: P01589
+    chains:
+      - range: [22, 240]
+        label: "IL2RA ectodomain"
+    note: >
+      Veeramani 2019 soluble CD25. UniProt P01589: signal 1-21, extracellular
+      22-240, TM 241-259. Modeled ectodomain only.
+
+  - name: "Rituximab, anti-CD20 lgG1 antibody"
+    uniprot: RITUXIMAB
+    chains:
+      - label: "rituximab heavy chain"
+        sequence: "QVQLQQPGAELVKPGASVKMSCKASGYTFTSYNMHWVKQTPGRGLEWIGAIYPGNGDTSYNQKFKGKATLTADKSSSTAYMQLSSLTSEDSAVYYCARSTYYGGDWYFNVWGAGTTVTVSAASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK"
+      - label: "rituximab light chain"
+        sequence: "QIVLSQSPAILSASPGEKVTMTCRASSSVSYIHWFQQKPGSSPKPWIYATSNLASGVPVRFSGSGSGTSYSLTISRVEAEDAATYYCQQWTSNPPTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+    note: >
+      Kohlberger 2020 used heat-treated rituximab (full IgG). Sequences are
+      the chimeric mouse-variable / human-IgG1-kappa DrugBank sequences.
+      Modeled as one heavy + one light chain (not the 2H+2L tetramer).
+      Dataset spelling is "lgG1".
+
+  - name: "C-terminal region Recombinant human connective tissue growth factor (rhCTGF)"
+    uniprot: P29279
+    chains:
+      - range: [191, 349]
+        label: "CTGF C-terminal region"
+    note: >
+      Li 2015: five aptamers bind hCTGF aa 191-350 (N-terminal binder
+      C-ap17P is a different target). P29279 is 349 aa; 191-349 covers
+      TSP1 + CTCK. Signal 1-26 is already outside this slice.
+
+  - name: "Recombinant HA protein from swine IAV H3 cluster IV"
+    uniprot: ACI89682
+    chains:
+      - label: "H3 ectodomain A/swine/Minnesota/SG235/2007"
+        sequence: "ATLCLGHHAVPNGTLVKTITDDQIEVTNATELVQSSSTGRICNSPHQILDGENCTLIDALLGDPHCDDFQNKEWDLFVERSTAYSNCYPYYVPDYASLRSLVASSGTLEFTQESFNWTGVAQDGSSYACRRKSVNSFFSRLNWLHNLNYKYPALNVTMPNNDKFDKLYIWGVHHPGTDRDQTNLYIQASGRVTVSTKRSQQTVIPNIGSRPWVRGVSSIISIYWTIVKPGDILLINSTGNLIAPRGYFKIQSGKSSIMRSDAPIGNCNSECITPNGSIPNDKPFQNVNRITYGACPRYVKQNTLKLATGMRNVPEKQTRGIFGAIAGFIENGWEGMVDGWYGFRHQNSEGTGQAADLKSTQAAINQITGKLNRVIKKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFERTRKQLRENAEDMGNGCFKIYHKCDNACIGSIRNGTYDHDVYRNEALNNRFQINGVQLKSGYKD"
+    note: >
+      Wongphatcharachai 2013 selected against baculovirus His6 H3 from
+      A/swine/Minnesota/SG-00235/2007 (cluster IV). NCBI ACI89682.1 is a
+      partial HA for A/swine/Minnesota/SG235/2007. Modeled ectodomain
+      (mature H3 start ATLCLGHH through pre-TM KDW); TM/cytoplasmic tail
+      omitted. No UniProt Swiss-Prot entry for this isolate.
+
+  - name: "RNA-dependent RNA polymerase (3Dpol)"
+    uniprot: P03311
+    chains:
+      - range: [1858, 2327]
+        label: "FMDV C-S8c1 3Dpol"
+    note: >
+      Ellingham 2006 selected against FMDV serotype C 3Dpol. UniProt
+      P03311 (isolate C-S8c1): 3D-POL is 1858-2327 of the polyprotein.
+
+  - name: "Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5B\u0394C55 protein"
+    uniprot: P26663
+    chains:
+      - range: [2420, 2955]
+        label: "HCV-BK NS5B deltaC55"
+    note: >
+      Biroccio 2002 used HCV-BK (genotype 1b) NS5B lacking the C-terminal
+      55 residues (NS5B\u0394C55). P26663 NS5B is 2420-3010 (591 aa);
+      \u0394C55 is 2420-2955 (536 aa).
+
+  - name: "Mucin 1 (MUC1) recombinant protein MUC1-5TR"
+    uniprot: MUC1_5TR
+    chains:
+      - label: "MUC1 five tandem repeats"
+        sequence: "APDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTSAPDTRPAPGSTAPPAHGVTS"
+    note: >
+      Ferreira 2008 / related MUC1 aptamer papers: recombinant unglycosylated
+      protein with five copies of the VNTR peptide APDTRPAPGSTAPPAHGVTS.
+      Not full-length mucin P15941. His-tag omitted.
+
+  - name: "Mammaglobin A (MGB1)"
+    uniprot: Q13296
+    chains:
+      - range: [19, 93]
+        label: "mature mammaglobin-A"
+    note: >
+      SCGB2A2 / MGB1. Hassan 2017. Signal 1-18 removed.
+
+  - name: "Leptin protein, Human"
+    uniprot: P41159
+    chains:
+      - range: [22, 167]
+        label: "mature leptin"
+    note: >
+      Ashley 2013. Signal 1-21 removed.
+
+  - name: "Lactate dehydrogenase (LDH), Human"
+    uniprot: P00338
+    chains:
+      - range: [1, 332]
+        label: "LDHA monomer"
+    note: >
+      Guo 2021 selected against "LDH protein" without naming the isoform.
+      LDHA (P00338) is the usual tumor-marker isoform. Native LDH is a
+      tetramer; one chain is modeled.
+
+  - name: "KpnI isoschizomer Acc65I"
+    uniprot: ADS45472
+    chains:
+      - label: "Acc65I restriction endonuclease"
+        sequence: "MKLNAENLSIQEQLAEFDQWLTARLDKIKDSEKFNSEINSLCNCITVLSPLLENFSDPSTCTIHSLVNAVIEASNRIVSGSSFGGDEAALNNFYESFFNLLFLTSGATDNNLKNHFLIKLNEDDITPLIPKRGSIKKQITFKLYEIPTTTKSDFIARTLASCFTGTKYPLLVKTEPFFDLETYFKIFLEEYIKLILDDEEDLLQLWAICHSFVELSTNPHGSNLGKYLLNSCTIFKVRGSVSASGGHVTESILREKLSNIGLRADIDYNNNDVKIGDDEIIEDGKRKKKTRAYDFIIPYKIDNWEPKPKLFIQSQFYAGDSGSVSHKVVDQTQSSRVFTLTKYPNAKFVEYLDGAGYYASLRGDLQHMLSFSNTESFFQVKSILLRLRREFQKIDFLTAIEIQHAVLISKSRTHKDLQNLLIKDNYSIQEIERAIQTNLELGLITKNESDEIVIPTEHICIARRLLILDIAANYSCSITQAEKSSQKYLLVPGNGANKGIKESKLAELAFDLCKDINITPTEFIEDIEWLLDEGVIKRF"
+    note: >
+      Mondragon 2015 used Acc65I (NEB; Acinetobacter calcoaceticus 65).
+      No Swiss-Prot entry. Sequence is NCBI ADS45472.1 (US patent 7795408
+      SEQ ID 5), 539 aa R-Acc65I.
+
+  - name: "Estrogen receptor alpha (ER\u03b1)"
+    uniprot: P03372
+    chains:
+      - range: [1, 595]
+        label: "ESR1 full length"
+    note: >
+      Sett 2017. Full-length nuclear receptor, 595 aa.
+
+  - name: "SARS-CoV-2 Spike glycoprotein"
+    uniprot: P0DTC2
+    chains:
+      - range: [16, 1213]
+        label: "Spike S1+S2 ectodomain"
+    note: >
+      Martinez-Roque 2022 used Sino Biological 40589-V08B1 (baculovirus
+      His-tagged S, catalog ectodomain Val16-Pro1213). Full spike/trimer
+      is not modeled. ~1198 aa — likely to OOM on a 16GB V100; run last.

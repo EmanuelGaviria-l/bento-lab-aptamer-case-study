@@ -48,10 +48,16 @@ def main() -> None:
         type=Path,
         default=Path("/projects/bentosprg6/gavirial/bento-lab-aptamer-case-study"),
     )
+    parser.add_argument(
+        "--targets",
+        type=Path,
+        default=None,
+        help="targets YAML (default: data/targets.yaml).",
+    )
     args = parser.parse_args()
 
     project_root = args.project_root
-    targets_path = project_root / "data" / "targets.yaml"
+    targets_path = args.targets or (project_root / "data" / "targets.yaml")
     cache_dir = project_root / "data" / "uniprot_cache"
     msa_dir = project_root / "data" / "msa_cache"
     fasta_dir = msa_dir / "fasta"
@@ -69,24 +75,31 @@ def main() -> None:
         uniprot = entry["uniprot"]
         target_name = entry["name"]
         fasta_file = cache_dir / f"{uniprot}.fasta"
+        full_sequence = None
+        needs_uniprot = any("sequence" not in chain for chain in entry["chains"])
 
-        if not fasta_file.exists():
-            sys.exit(
-                f"Missing UniProt cache for {uniprot}. "
-                f"Run build_af3_inputs.py once first to download sequences."
-            )
-
-        lines = [
-            line.strip()
-            for line in fasta_file.read_text().splitlines()
-            if not line.startswith(">")
-        ]
-        full_sequence = "".join(lines)
+        if needs_uniprot:
+            if not fasta_file.exists():
+                sys.exit(
+                    f"Missing UniProt cache for {uniprot}. "
+                    f"Run build_*_inputs.py once first to download sequences."
+                )
+            lines = [
+                line.strip()
+                for line in fasta_file.read_text().splitlines()
+                if not line.startswith(">")
+            ]
+            full_sequence = "".join(lines)
 
         for chain in entry["chains"]:
-            start, end = chain["range"]
             label = chain.get("label", "chain")
-            sequence = full_sequence[start - 1 : end]
+            if "sequence" in chain:
+                sequence = "".join(str(chain["sequence"]).split())
+            else:
+                start, end = chain["range"]
+                sequence = full_sequence[start - 1 : end]
+            if not sequence:
+                sys.exit(f"Empty chain sequence for {target_name} / {label}")
             chain_msa_id = msa_id(uniprot, label)
             a3m_path = msa_dir / f"{chain_msa_id}.a3m"
 

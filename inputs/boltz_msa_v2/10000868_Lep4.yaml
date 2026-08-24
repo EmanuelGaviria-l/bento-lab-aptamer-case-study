@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: VPIQKVQDDTKTLIKTIVTRINDISHTQSVSSKQKVTGLDFIPGLHPILTLSKMDQTLAVYQQILTSMPSRNVIQISNDLENLRDLLHVLAFSKSCHLPWASGLETLDSLGGVLEASGYSTEVVALSRLQGSLQDMLWQLDLSPGC
+    msa: /projects/bentosprg6/gavirial/bento-lab-aptamer-case-study/data/msa_cache/P41159_mature_leptin.a3m
+- dna:
+    id: B
+    sequence: CTTCTGCCCGCCTCCTTCCTCTATAAACTCTGTCCGGTTTTATAATAATAACATTTTACGGAGACGAGATAGGCGGACACT
+properties:
+- affinity:
+    binder: B

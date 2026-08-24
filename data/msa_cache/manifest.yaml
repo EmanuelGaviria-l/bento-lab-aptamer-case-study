@@ -71,3 +71,196 @@ chains:
   fasta: data/msa_cache/fasta/P11140_b_chain_lectin.fasta
   a3m: data/msa_cache/P11140_b_chain_lectin.a3m
   status: ready
+- msa_id: P04585_p66_rt
+  target: Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT)
+  uniprot: P04585
+  label: p66 RT
+  sequence_length: 560
+  fasta: data/msa_cache/fasta/P04585_p66_rt.fasta
+  a3m: data/msa_cache/P04585_p66_rt.a3m
+  status: ready
+- msa_id: P04925_mouse_prp_90_230
+  target: Proteinase K-resistant isoform (PrPSc)
+  uniprot: P04925
+  label: mouse PrP 90-230
+  sequence_length: 141
+  fasta: data/msa_cache/fasta/P04925_mouse_prp_90_230.fasta
+  a3m: data/msa_cache/P04925_mouse_prp_90_230.a3m
+  status: ready
+- msa_id: P22629_mature_streptavidin
+  target: Streptavidin
+  uniprot: P22629
+  label: mature streptavidin
+  sequence_length: 159
+  fasta: data/msa_cache/fasta/P22629_mature_streptavidin.fasta
+  a3m: data/msa_cache/P22629_mature_streptavidin.a3m
+  status: ready
+- msa_id: O75534_csde1_unr_full_length
+  target: Unr (Upstream of N-Ras) protein, Human
+  uniprot: O75534
+  label: CSDE1 / Unr full length
+  sequence_length: 798
+  fasta: data/msa_cache/fasta/O75534_csde1_unr_full_length.fasta
+  a3m: data/msa_cache/O75534_csde1_unr_full_length.a3m
+  status: ready
+- msa_id: P19821_taq_dna_polymerase_i
+  target: DNA polymerase (Taq pol), Thermus acquaticus
+  uniprot: P19821
+  label: Taq DNA polymerase I
+  sequence_length: 832
+  fasta: data/msa_cache/fasta/P19821_taq_dna_polymerase_i.fasta
+  a3m: data/msa_cache/P19821_taq_dna_polymerase_i.a3m
+  status: ready
+- msa_id: P24627_bovine_lactoferrin_mature
+  target: Lactoferrin
+  uniprot: P24627
+  label: bovine lactoferrin mature
+  sequence_length: 689
+  fasta: data/msa_cache/fasta/P24627_bovine_lactoferrin_mature.fasta
+  a3m: data/msa_cache/P24627_bovine_lactoferrin_mature.a3m
+  status: ready
+- msa_id: O75556_mature_mammaglobin_b
+  target: Mammaglobin B (MGB2)
+  uniprot: O75556
+  label: mature mammaglobin-B
+  sequence_length: 77
+  fasta: data/msa_cache/fasta/O75556_mature_mammaglobin_b.fasta
+  a3m: data/msa_cache/O75556_mature_mammaglobin_b.a3m
+  status: ready
+- msa_id: P00646_colicin_e3_rnase_domain
+  target: C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)
+  uniprot: P00646
+  label: colicin E3 RNase domain
+  sequence_length: 96
+  fasta: data/msa_cache/fasta/P00646_colicin_e3_rnase_domain.fasta
+  a3m: data/msa_cache/P00646_colicin_e3_rnase_domain.a3m
+  status: ready
+- msa_id: P04585_hiv_1_protease
+  target: HIV-1 aspartyl protease (PR)
+  uniprot: P04585
+  label: HIV-1 protease
+  sequence_length: 99
+  fasta: data/msa_cache/fasta/P04585_hiv_1_protease.fasta
+  a3m: data/msa_cache/P04585_hiv_1_protease.a3m
+  status: ready
+- msa_id: P60842_eif4a1_full_length
+  target: Mammalian translation initiation factor 4A (eIF4A)
+  uniprot: P60842
+  label: eIF4A1 full length
+  sequence_length: 406
+  fasta: data/msa_cache/fasta/P60842_eif4a1_full_length.fasta
+  a3m: data/msa_cache/P60842_eif4a1_full_length.a3m
+  status: ready
+- msa_id: P01589_il2ra_ectodomain
+  target: "Soluble Interleukin 2 Receptor \u03B1 (CD25)"
+  uniprot: P01589
+  label: IL2RA ectodomain
+  sequence_length: 219
+  fasta: data/msa_cache/fasta/P01589_il2ra_ectodomain.fasta
+  a3m: data/msa_cache/P01589_il2ra_ectodomain.a3m
+  status: ready
+- msa_id: RITUXIMAB_rituximab_heavy_chain
+  target: Rituximab, anti-CD20 lgG1 antibody
+  uniprot: RITUXIMAB
+  label: rituximab heavy chain
+  sequence_length: 451
+  fasta: data/msa_cache/fasta/RITUXIMAB_rituximab_heavy_chain.fasta
+  a3m: data/msa_cache/RITUXIMAB_rituximab_heavy_chain.a3m
+  status: ready
+- msa_id: RITUXIMAB_rituximab_light_chain
+  target: Rituximab, anti-CD20 lgG1 antibody
+  uniprot: RITUXIMAB
+  label: rituximab light chain
+  sequence_length: 213
+  fasta: data/msa_cache/fasta/RITUXIMAB_rituximab_light_chain.fasta
+  a3m: data/msa_cache/RITUXIMAB_rituximab_light_chain.a3m
+  status: ready
+- msa_id: P29279_ctgf_c_terminal_region
+  target: C-terminal region Recombinant human connective tissue growth factor (rhCTGF)
+  uniprot: P29279
+  label: CTGF C-terminal region
+  sequence_length: 159
+  fasta: data/msa_cache/fasta/P29279_ctgf_c_terminal_region.fasta
+  a3m: data/msa_cache/P29279_ctgf_c_terminal_region.a3m
+  status: ready
+- msa_id: ACI89682_h3_ectodomain_a_swine_minnesota_sg235_2007
+  target: Recombinant HA protein from swine IAV H3 cluster IV
+  uniprot: ACI89682
+  label: H3 ectodomain A/swine/Minnesota/SG235/2007
+  sequence_length: 503
+  fasta: data/msa_cache/fasta/ACI89682_h3_ectodomain_a_swine_minnesota_sg235_2007.fasta
+  a3m: data/msa_cache/ACI89682_h3_ectodomain_a_swine_minnesota_sg235_2007.a3m
+  status: ready
+- msa_id: P03311_fmdv_c_s8c1_3dpol
+  target: RNA-dependent RNA polymerase (3Dpol)
+  uniprot: P03311
+  label: FMDV C-S8c1 3Dpol
+  sequence_length: 470
+  fasta: data/msa_cache/fasta/P03311_fmdv_c_s8c1_3dpol.fasta
+  a3m: data/msa_cache/P03311_fmdv_c_s8c1_3dpol.a3m
+  status: ready
+- msa_id: P26663_hcv_bk_ns5b_deltac55
+  target: "Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5B\u0394\
+    C55 protein"
+  uniprot: P26663
+  label: HCV-BK NS5B deltaC55
+  sequence_length: 536
+  fasta: data/msa_cache/fasta/P26663_hcv_bk_ns5b_deltac55.fasta
+  a3m: data/msa_cache/P26663_hcv_bk_ns5b_deltac55.a3m
+  status: ready
+- msa_id: MUC1_5TR_muc1_five_tandem_repeats
+  target: Mucin 1 (MUC1) recombinant protein MUC1-5TR
+  uniprot: MUC1_5TR
+  label: MUC1 five tandem repeats
+  sequence_length: 100
+  fasta: data/msa_cache/fasta/MUC1_5TR_muc1_five_tandem_repeats.fasta
+  a3m: data/msa_cache/MUC1_5TR_muc1_five_tandem_repeats.a3m
+  status: ready
+- msa_id: Q13296_mature_mammaglobin_a
+  target: Mammaglobin A (MGB1)
+  uniprot: Q13296
+  label: mature mammaglobin-A
+  sequence_length: 75
+  fasta: data/msa_cache/fasta/Q13296_mature_mammaglobin_a.fasta
+  a3m: data/msa_cache/Q13296_mature_mammaglobin_a.a3m
+  status: ready
+- msa_id: P41159_mature_leptin
+  target: Leptin protein, Human
+  uniprot: P41159
+  label: mature leptin
+  sequence_length: 146
+  fasta: data/msa_cache/fasta/P41159_mature_leptin.fasta
+  a3m: data/msa_cache/P41159_mature_leptin.a3m
+  status: ready
+- msa_id: P00338_ldha_monomer
+  target: Lactate dehydrogenase (LDH), Human
+  uniprot: P00338
+  label: LDHA monomer
+  sequence_length: 332
+  fasta: data/msa_cache/fasta/P00338_ldha_monomer.fasta
+  a3m: data/msa_cache/P00338_ldha_monomer.a3m
+  status: ready
+- msa_id: ADS45472_acc65i_restriction_endonuclease
+  target: KpnI isoschizomer Acc65I
+  uniprot: ADS45472
+  label: Acc65I restriction endonuclease
+  sequence_length: 539
+  fasta: data/msa_cache/fasta/ADS45472_acc65i_restriction_endonuclease.fasta
+  a3m: data/msa_cache/ADS45472_acc65i_restriction_endonuclease.a3m
+  status: ready
+- msa_id: P03372_esr1_full_length
+  target: "Estrogen receptor alpha (ER\u03B1)"
+  uniprot: P03372
+  label: ESR1 full length
+  sequence_length: 595
+  fasta: data/msa_cache/fasta/P03372_esr1_full_length.fasta
+  a3m: data/msa_cache/P03372_esr1_full_length.a3m
+  status: ready
+- msa_id: P0DTC2_spike_s1_s2_ectodomain
+  target: SARS-CoV-2 Spike glycoprotein
+  uniprot: P0DTC2
+  label: Spike S1+S2 ectodomain
+  sequence_length: 1198
+  fasta: data/msa_cache/fasta/P0DTC2_spike_s1_s2_ectodomain.fasta
+  a3m: data/msa_cache/P0DTC2_spike_s1_s2_ectodomain.a3m
+  status: ready

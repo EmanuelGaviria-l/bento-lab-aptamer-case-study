@@ -35,3 +35,6 @@ docs/af3_msa_batch_log.txt
 .DS_Store
 *.swp
 results/af3_boltz_affinity_v2/
+inputs/af3_msa_v2/
+results/af3_msa_v2/
+results/boltz_msa_v2/
